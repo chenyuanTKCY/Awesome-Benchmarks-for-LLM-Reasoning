@@ -93,6 +93,7 @@
 ### 3. Knowledge Enhanced & Context Reasoning
 
 #### Multi-hop Reasoning
+##### Multi-hop Answering
 | Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
 | :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
 | 2021  | StrategyQA: A Benchmark for Question Answering that Requires Implicit Reasoning Steps                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2101.02235) |
@@ -102,7 +103,7 @@
 | 2023  | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                                     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022) |
 
 
-##### Multi-hop Answering
+##### Multi-hop Retrieval
 
 | Date  | Title                                                                                               |                                                                 Paper                                                                  |
 | :---: | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
@@ -197,12 +198,12 @@
 
 | Date  | Title                                                                                               |                                                                 Paper                                                                  |
 | :---: | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2024 | MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark                                             [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01574) |
-| 2023 | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                                               [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022) |
-| 2024 | LogicBench: Towards Systematic Evaluation of Logical Reasoning Ability of Large Language Models                                 [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.15522) |
-| 2024 | OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems           [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge\&logo=arxiv\&logoColor=white)](https://arxiv.org/abs/2402.14008) |
-| 2025  | SATBench: Benchmarking LLMs' Logical Reasoning via Automated Puzzle Generation from SAT Formulas                               [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.14615)         |
-| 2024  | MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?         [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.13257)         |
+| 2024 | MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark                                        |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01574) |
+| 2023 | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                                          |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022) |
+| 2024 | LogicBench: Towards Systematic Evaluation of Logical Reasoning Ability of Large Language Models                            |     [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.15522) |
+| 2024 | OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems      |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge\&logo=arxiv\&logoColor=white)](https://arxiv.org/abs/2402.14008) |
+| 2025  | SATBench: Benchmarking LLMs' Logical Reasoning via Automated Puzzle Generation from SAT Formulas                          |     [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.14615)         |
+| 2024  | MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?    |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.13257)         |
 
 
 
@@ -223,12 +224,12 @@
 
 | Date  | Title                                                                                               |                                                                 Paper                                                                  |
 | :---: | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2023 | API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs                                                            [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.08244)              |
-| 2023  | The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/forum?id=2GmDdhBdDk)         |
-| 2023  | ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs                                          [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.16789)         |
-| 2023  | SWE-bench: Can Language Models Resolve Real-World GitHub Issues?                                                      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.06770)         |
-| 2021  | MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics                                               [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2109.00110)         |
-| 2025  | miniF2F-Lean Revisited: Reviewing Limitations and Charting a Path Forward                                             [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.03108)         |
+| 2023 | API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs                                                         |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.08244)                   |
+| 2023  | The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models     |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/forum?id=2GmDdhBdDk)         |
+| 2023  | ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs                                       |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.16789)                   |
+| 2023  | SWE-bench: Can Language Models Resolve Real-World GitHub Issues?                                                   |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.06770)                   |
+| 2021  | MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics                                            |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2109.00110)                   |
+| 2025  | miniF2F-Lean Revisited: Reviewing Limitations and Charting a Path Forward                                          |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.03108)                   |
 
 
 #### Interaction Modalities​
@@ -236,16 +237,15 @@
 ##### Single-turn static evaluation​
 
 
-
 | Date  | Title                                                                                               |                                                                 Paper                                                                  |
 | :---: | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2024  | A Careful Examination of Large Language Model Performance on Grade School Arithmetic                [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.00332) |
-| 2024 | MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark                  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01574) |
-| 2023 | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022) |
-| 2024  | LogicAsker: Evaluating and Improving the Logical Reasoning Ability of Large Language Models         [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.00757)         |
-| 2023  | LongBench: A Comprehensive, Bilingual Benchmark for Long-Context Understanding                      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.09552) |
-| 2024  | TruthEval: A Dataset to Evaluate LLM Truthfulness and Reliability                                   [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01855)         |
-| 2025  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281) |
+| 2024  | A Careful Examination of Large Language Model Performance on Grade School Arithmetic              |   [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.00332)                |
+| 2024 | MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark                |   [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01574)                |
+| 2023 | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                  |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022)                           |
+| 2024  | LogicAsker: Evaluating and Improving the Logical Reasoning Ability of Large Language Models       |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.00757)                           |
+| 2023  | LongBench: A Comprehensive, Bilingual Benchmark for Long-Context Understanding                    |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.09552)                           |
+| 2024  | TruthEval: A Dataset to Evaluate LLM Truthfulness and Reliability                                 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01855)                           |
+| 2025  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                    |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281)                           |
 
 ##### Multi-turn interaction
 
