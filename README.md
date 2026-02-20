@@ -483,6 +483,11 @@ badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxi
 | 2023-11  | GAIA: a benchmark for General AI Assistants                                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12983)         |
 | 2024-06 | τ-bench: Benchmarking Tool-Agent-User Interaction                                                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.12045) |
 | 2024-11 | WorkflowLLM: Enhancing Workflow Orchestration Capability of Large Language Models                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.05451) |
+| 2025-03 | MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2503.01935) |
+| 2025-08 | MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2508.20453) |
+| 2025-10 |OrchDAG: Complex Tool Orchestration in Multi-Turn Interactions with Plan DAGs              | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.24663) |
+| 2025-10 |TOUCAN: SYNTHESIZING 1.5M TOOL-AGENTIC DATA FROM REAL-WORLD MCP ENVIRONMENTS             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01179) |
+| 2025-11 |M^3-Bench: Multi-Modal, Multi-Hop, Multi-Threaded Tool-Using MLLM Agent Benchmark        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2511.17729) |
 
 
 #### Simulation Environment​
@@ -553,13 +558,16 @@ badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxi
 
 | Date  | Title                                                                  |                                                                 Paper                                                                  |
 | :---: | :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2023  | PromptBench: A Unified Library for Evaluation of Large Language Models                                           | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.07910) |
+| 2023-12  | PromptBench: A Unified Library for Evaluation of Large Language Models                                           | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.07910) |
+| 2024-03  | LiveCodeBench: Holistic and Contamination-Free Evaluation for Code                                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.07974)         |
+| 2024-05  | A Careful Examination of Large Language Model Performance on Grade School Arithmetic(GSM1k)                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.00332) |
 | 2024-06 | LiveBench: A Challenging, Contamination-Free LLM Benchmark                                                     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.19314) |
-| 2024  | LiveCodeBench: Holistic and Contamination-Free Evaluation for Code                                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.07974)         |
-| 2024  | A Careful Examination of Large Language Model Performance on Grade School Arithmetic(GSM1k)                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.00332) |
-| 2025  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281) |
-| 2024  | From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.11939)         |
-| 2026  | TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/pdf/2601.22597)         |
+| 2024-06  | From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.11939)         |
+| 2025-01 |Humanity’s Last Exam                                                              | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.14249) |
+| 2025-05  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281) |
+| 2025-05  | How Can I Publish My LLM Benchmark Without Giving the True Answers Away?(PhishBencher )                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.18102v4) |
+| 2025-09  | SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.16941) |
+| 2026-01  | TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/pdf/2601.22597)         |
 
 
 ## Metrics (How-to-Score)
