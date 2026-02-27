@@ -73,6 +73,14 @@
 | 2025-05  | ProofNet++: A Neuro-Symbolic System for Formal Proof Verification with Self-Correction                                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.24230)         |
 | 2026-01  | Neural Theorem Proving for Verification Conditions: A Real-World Benchmark(NTP4VC​)                                            |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.18944)         |
 
+
+##### Proof verification and interactive proof
+
+#### Abstraction and induction
+
+##### Combinatorial generalization and systematic generalization
+##### Rule induction and program synthesis
+
 ### 2. Mathematical Deep Reasoning
 
 #### Fundamental Mathematics  
@@ -102,6 +110,13 @@
 | 2025-08  | ASyMOB: Algebraic Symbolic Mathematical Operations Benchmark                                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.23851) |
 | 2025-10  | MATHEMAGIC: Generating Dynamic Mathematics Benchmarks Robust to Memorization                                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.05962) |
 
+
+##### Arithmetic and algebra
+
+##### Geometry and discrete
+
+##### Probability, statistics, and uncertainty
+
 #### Advanced Mathematics
 
 ##### Competition Mathematics
@@ -118,18 +133,9 @@
 | 2025-11  | Towards Robust Mathematical Reasoning(IMO-Bench)                                                                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.01846) |
 
 
-##### Spectral Mathematics
-| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
-| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2023-10  | MATHVISTA: EVALUATING MATHEMATICAL REASONING OF FOUNDATION MODELS IN VISUAL CONTEXTS                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2310.02255) |
-| 2023-11  | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                                     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022) |
-| 2024-05  | MathBench: A Comprehensive Multi-level Benchmark for Evaluating Mathematical Capabilities                             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.12209) |
-| 2024-06 | MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01574) |
-| 2024-06  | LiveBench: A Difficult LLM Benchmark Consisting of Frequently-Updated Questions                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.19314) |
-| 2025-01  | UGMATHBENCH: A DIVERSE AND DYNAMIC BENCHMARK FOR UNDERGRADUATE-LEVEL MATHEMATICAL REASONING WITH LARGE LANGUAGE MODELS             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.13766) |
-| 2025-05  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281) |
-| 2025-05  | FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.02735) |
 
+
+#### STEM Mathematical Reasoning
 
 
 ### 3. Knowledge Enhanced & Context Reasoning
@@ -201,6 +207,10 @@
 | 2024-02 | $\infty$Bench: Extending Long Context Evaluation Beyond 100K Tokens                                         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge\&logo=arxiv\&logoColor=white)](https://arxiv.org/abs/2402.13718)|
 | 2024-10  | HELMET: HOW TO EVALUATE LONG-CONTEXT LANGUAGE MODELS EFFECTIVELY AND THOROUGHLY                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.02694) |
 | 2025-05  | 100-LongBench: Are de facto Long-Context Benchmarks Literally Evaluating Long-Context Ability?            | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.19293v1) |
+
+
+##### Long-range State Reasoning
+
 
 ### 4. Agentic Reasoning
 
@@ -281,6 +291,10 @@
 | 2025-06  | LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.11928)         |
 | 2025-06  | CodeContests+: High-Quality Test Case Generation for Competitive Programming                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.05817)         |
 | 2026-01  | From Laboratory to Real-World Applications: Benchmarking Agentic Code Reasoning at the Repository Level(RepoReason)             |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/pdf/2601.03731)         |
+
+
+##### Multi-Agent Collaboration
+
 
 ## Setting (How: Evaluation Scenarios of Reasoning Benchmarks)
 
