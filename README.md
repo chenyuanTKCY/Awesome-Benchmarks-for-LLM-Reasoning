@@ -2,9 +2,10 @@
 ## Dataset Analysis (By Source Category)
 
 
+
 ### Source-Type Benchmark Lists
 
-#### 1. Real-World Collection
+#### 1. 真实世界采集
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -478,7 +479,7 @@
 | 2020-06 | AdvGLUE: A Multi-Task Benchmark for Adversarial Robustness in Natural Language Understanding | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2006.12983) |
 | 2020-02 | ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2002.04326) |
 
-#### 2. Expert-Curated
+#### 2. 专家编撰
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -610,7 +611,7 @@
 | 2021-01 | Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2101.02235) |
 | 2021-01 | Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2101.02235) |
 
-#### 3. LLM-Generated
+#### 3. 大模型生成
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -658,7 +659,7 @@
 | 2020-09 | Measuring Massive Multitask Language Understanding | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2009.03300) |
 | 2020-06 | Extracting Training Data from Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2006.07691) |
 
-#### 4. Dynamic Environment Interaction
+#### 4. 动态环境交互
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -702,7 +703,7 @@
 | 2022-03 | ScienceWorld: Is your Agent Smarter than a 5th Grader? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.07540) |
 | 2021-01 | Robustness Gym: Unifying the NLP Evaluation Landscape | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2101.04840) |
 
-#### 5. Rule-Based Symbolic Synthesis
+#### 5. 规则符号合成
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -737,7 +738,7 @@
 | 2022-10 | Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.01240) |
 | 2020-05 | CheckList: Beyond Accuracy: Behavioral Testing of NLP Models with CheckList | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2005.04118) |
 
-#### 6. Human-AI Collaboration
+#### 6. 人机协同
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -770,11 +771,11 @@
 | 2024-01 | LogicAsker: Evaluating and Improving the Logical Reasoning Ability of Large Language Models                      |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.00757)  |
 | 2023-10 | Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.00836)  |
 | 2023-05 | Chain-of-Thought Hub: A Continuous Effort to Measure Large Language Models’ Reasoning Performance                |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.17306)  |
-| 2022-10 | LANGUAGE MODELS ARE GREEDY REASONERS:A SYSTEMATIC FORMAL ANALYSIS OF CHAIN-OFTHOUGHT(PRONTOQA)                 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2210.01240)  |
+| 2022-10 | LANGUAGE MODELS ARE GREEDY REASONERS:A SYSTEMATIC FORMAL ANALYSIS OF CHAIN-OFTHOUGHT（PRONTOQA）                 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2210.01240)  |
 | 2022-09 | FOLIO: Natural Language Reasoning with First-Order Logic                                                         |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2209.00840)  |
 | 2021-04 | AR-LSAT: Investigating Analytical Reasoning of Text                                                              |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.06598)  |
 | 2021-04 | NATURALPROOFS: Mathematical Theorem Proving in Natural Language                                                  |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.01112)  |
-| 2021-04 | Explaining Answers with Entailment Trees(ENTAILMENTBANK)                                                       |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.08661)  |
+| 2021-04 | Explaining Answers with Entailment Trees（ENTAILMENTBANK）                                                       |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.08661)  |
 
 
 
@@ -804,7 +805,7 @@
 |  Date   | Title                                                                                                   |                                                                        Paper                                                                        |
 | :-----: | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 2026-01 | ChaosBench-Logic: A Benchmark for Logical and Symbolic Reasoning on Chaotic Dynamical Systems           |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.01982)        |
-| 2025-09 | INABHYD:Language Models Do Not Follow Occam’s Razor:A Benchmark for Inductive and Abductive Reasoning  |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.03345v1)       |
+| 2025-09 | INABHYD：Language Models Do Not Follow Occam’s Razor:A Benchmark for Inductive and Abductive Reasoning  |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.03345v1)       |
 | 2024-10 | P-FOLIO: Evaluating and Improving Logical Reasoning with Abundant Human-Written Reasoning Chains        |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.09207)        |
 | 2024-06 | Multi-LogiEval: Towards Evaluating Multi-Step Logical Reasoning Ability of Large Language Models        |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.17169)        |
 | 2024-05 | Autoformalizing Natural Language to First-Order Logic:A Case Study in Logical Fallacy Detection(NL2FOL) |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.02318)        |
@@ -1005,7 +1006,7 @@
 | 2024-01 | EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2401.07128) |
 | 2023-10 | SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.11667) |
 | 2023-08 | AgentBench: A Comprehensive Benchmark to Evaluate LLMs as Agents                                                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.03688) |
-| 2023-05 | MULTIMODAL WEB NAVIGATION WITH INSTRUCTIONFINETUNED FOUNDATION MODELS(WebGUM)                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.11854) |
+| 2023-05 | MULTIMODAL WEB NAVIGATION WITH INSTRUCTIONFINETUNED FOUNDATION MODELS（WebGUM）                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.11854) |
 | 2022-07 | WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2207.01206) |
 | 2022-03 | ScienceWorld: Is Your Agent Smarter than a Fifth Grader?                                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.07540) |
 
