@@ -675,8 +675,7 @@
 | 2025-05  |The ConceptARC Benchmark:Evaluating Understanding and Generalization in the ARC Domain  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.07141) | 
 | 2023-10  | SLOG: A Structural Generalization Benchmark for Semantic arsing      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2310.15040) | 
 | 2024-10  | Tackling the Abstraction and Reasoning Corpus with Vision Transformers: the Importance of 2D Representation, Positions, and Objects  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.06405) | 
-| 2024-12  | NeSyCoCo: A Neuro-Symbolic Concept Composer for Compositional
-Generalization | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.15588) | 
+| 2024-12  | NeSyCoCo: A Neuro-Symbolic Concept Composer for Compositional Generalization | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.15588) | 
 | 2025-06  | EasyARC: Evaluating Vision Language Models on True Visual Reasoning   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.11595) | 
 | 2025-07  | CompoST: A Benchmark for Analyzing the Ability of LLMs To Compositionally Interpret Questions in a QALD Setting     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.21257) | 
 | 2025-09  | Can Constructions “SCAN” Compositionality ?    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.20074) | 
@@ -687,11 +686,9 @@ Generalization | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-t
 | :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
 | 2021-05  | Measuring Coding Challenge Competence With APPS   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.09938) |
 | 2024-10  | Tackling the Abstraction and Reasoning Corpus with Vision Transformers: the Importance of 2D Representation, Positions, and Objects   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.06405) | 
-| 2024-12  | HumanEval Pro and MBPP Pro: Evaluating Large Language Models
-on Self-invoking Code Generation    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.21199) | 
+| 2024-12  | HumanEval Pro and MBPP Pro: Evaluating Large Language Models son Self-invoking Code Generation    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.21199) | 
 | 2025-03  | CodeARC: Benchmarking Reasoning Capabilities of LLM Agents for Inductive Program Synthesis    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2503.23145) | 
-| 2025-05  | Legal Rule Induction: Towards Generalizable Principle Discovery from
-Analogous Judicial Precedents   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.14104) | 
+| 2025-05  | Legal Rule Induction: Towards Generalizable Principle Discovery from Analogous Judicial Precedents   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.14104) | 
 
 ### 2. Mathematical Deep Reasoning
 
@@ -963,13 +960,11 @@ Analogous Judicial Precedents   | [![Paper](https://img.shields.io/badge/paper-A
 | Date  | Title                                                                                |                                                                         Paper                                                                         |
 | :---: | :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 2024-12  | TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.14161)         |
-| 2025-02  | REALM-Bench: A Benchmark for Evaluating Multi-Agent Systems
-on Real-world, Dynamic Planning and Scheduling Tasks      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.18836)         |
+| 2025-02  | REALM-Bench: A Benchmark for Evaluating Multi-Agent Systems on Real-world, Dynamic Planning and Scheduling Tasks      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.18836)         |
 | 2025-03  | MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents              |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2503.01935)         |
 | 2025-07  | CREW-Wildfire: Benchmarking Agentic Multi-Agent Collaborations at Scale    |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.05178)         |
 | 2025-07  | AGENTSNET: Coordination and Collaborative Reasoning in Multi-Agent LLMs     |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.08616)         |
-| 2025-10  | PaperArena: An Evaluation Benchmark for Tool-Augmented
-Agentic Reasoning on Scientific Literature      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.10909)         |
+| 2025-10  | PaperArena: An Evaluation Benchmark for Tool-Augmented Agentic Reasoning on Scientific Literature      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.10909)         |
 | 2026-01  | M3MAD-Bench:Are Multi-Agent Debates Really Effective Across Domains and Modalities?     |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.02854)         |
 
 ## Setting (How: Evaluation Scenarios of Reasoning Benchmarks)
