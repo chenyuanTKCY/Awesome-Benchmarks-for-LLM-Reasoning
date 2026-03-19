@@ -2,8 +2,411 @@
 ## Dataset Analysis (By Source Category)
 
 
+## Object (What: Core Classification of Reasoning Benchmarks)
 
-### Source-Type Benchmark Lists
+### 1. Symbolic & Logic Reasoning
+
+#### Deduction and Constraints
+
+##### Rule-Based Chain Reasoning
+
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |
+| :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: |
+| 2025-11 | EngChain: A Symbolic Benchmark for Verifiable Multi-Step Reasoning in Engineering                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.01650v1) |
+| 2024-06 | Multi-LogiEval: Towards Evaluating Multi-Step Logical Reasoning Ability of Large Language Models                 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.17169)  |
+| 2024-04 | LogicBench: Towards Systematic Evaluation of Logical Reasoning Ability of Large Language Models                  |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.15522)  |
+| 2024-01 | LogicAsker: Evaluating and Improving the Logical Reasoning Ability of Large Language Models                      |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.00757)  |
+| 2023-10 | Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.00836)  |
+| 2023-05 | Chain-of-Thought Hub: A Continuous Effort to Measure Large Language Models’ Reasoning Performance                |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.17306)  |
+| 2022-10 | LANGUAGE MODELS ARE GREEDY REASONERS:A SYSTEMATIC FORMAL ANALYSIS OF CHAIN-OFTHOUGHT(PRONTOQA)                 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2210.01240)  |
+| 2022-09 | FOLIO: Natural Language Reasoning with First-Order Logic                                                         |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2209.00840)  |
+| 2021-04 | AR-LSAT: Investigating Analytical Reasoning of Text                                                              |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.06598)  |
+| 2021-04 | NATURALPROOFS: Mathematical Theorem Proving in Natural Language                                                  |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.01112)  |
+| 2021-04 | Explaining Answers with Entailment Trees(ENTAILMENTBANK)                                                       |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.08661)  |
+
+
+
+
+##### Constraint Satisfaction and Interactive Games
+
+|  Date   | Title                                                                                                       |                                                                 Paper                                                                  |
+| :-----: | :---------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2026-01 | ChaosBench-Logic: A Benchmark for Logical and Symbolic Reasoning on Chaotic Dynamical Systems               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.01982) |
+| 2025-05 | SATBench: Benchmarking LLMs' Logical Reasoning via Automated Puzzle Generation from SAT Formulas            | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.14615) |
+| 2025-05 | SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.19641) |
+| 2025-02 | BIG-Bench Extra Hard                                                                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.19187) |
+| 2025-02 | AutoLogi: Automated Generation of Logic Puzzles for Evaluating Reasoning Abilities of Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.16906) |
+| 2024-08 | LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models                             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.15778) |
+| 2023-05 | SatLM: Satisfiability-Aided Language Models Using Declarative Prompting                                     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.09656) |
+| 2022-06 | MINEDOJO: Building Open-Ended Embodied Agents with Internet-Scale Knowledge                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2206.08853) |
+| 2022-03 | SCIENCEWORLD: Is your Agent Smarter than a 5th Grader?                                                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2203.07540) |
+| 2022-02 | DialFRED: Dialogue-Enabled Agents for Embodied Instruction Following                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2202.13330) |
+
+
+
+
+#### Formal Logic and Proof
+
+##### Formalization of Natural Language
+
+|  Date   | Title                                                                                                   |                                                                        Paper                                                                        |
+| :-----: | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 2026-01 | ChaosBench-Logic: A Benchmark for Logical and Symbolic Reasoning on Chaotic Dynamical Systems           |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.01982)        |
+| 2025-09 | INABHYD:Language Models Do Not Follow Occam’s Razor:A Benchmark for Inductive and Abductive Reasoning  |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.03345v1)       |
+| 2024-10 | P-FOLIO: Evaluating and Improving Logical Reasoning with Abundant Human-Written Reasoning Chains        |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.09207)        |
+| 2024-06 | Multi-LogiEval: Towards Evaluating Multi-Step Logical Reasoning Ability of Large Language Models        |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.17169)        |
+| 2024-05 | Autoformalizing Natural Language to First-Order Logic:A Case Study in Logical Fallacy Detection(NL2FOL) |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.02318)        |
+| 2024-03 | Towards Automatic Composition of ASP Programs from Natural Language Specifications                      |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2403.04541)        |
+| 2022-10 | Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought                  |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.01240)        |
+| 2022-09 | FOLIO: Natural Language Reasoning with First-Order Logic                                                |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2209.00840)        |
+| 2022-03 | LOGICINFERENCE: A NEW DATASET FOR TEACHING LOGICAL INFERENCE TO SEQ2SEQ MODELS                          |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2203.15099)        |
+| 2022-02 | Logical Fallacy Detection                                                                               |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2202.13758)        |
+| 2021-11 | Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://aclanthology.org/2021.emnlp-main.303/) |
+| 2021-09 | MINIF2F: A CROSS-SYSTEM BENCHMARK FOR FORMAL OLYMPIAD-LEVEL MATHEMATICS                                 |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2109.00110)        |
+
+
+##### Proof Generation
+| Date  | Title                                                                                                                 |                                                                         Paper                                                                         |
+| :---: | :-------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 2021-04  | NATURALPROOFS: Mathematical Theorem Proving in Natural Language                     |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.01112)         |
+| 2021-05  |Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning(Geometry3K )              |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.04165)      |
+| 2021-09  |MINIF2F: A CROSS-SYSTEM BENCHMARK FOR FORMAL OLYMPIAD-LEVEL MATHEMATICS                                                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2109.00110)      |
+| 2023-02  | ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics                                        |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https:https://arxiv.org/abs/2302.12433)         |
+| 2023-12  | Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations                                       |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.08935)         |
+| 2024-02  | SymBa: Symbolic Backward Chaining for Structured Natural Language Reasoning                                           |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.12806)         |
+| 2024-04  | Lean Copilot: Large Language Models as Copilots for Theorem Proving in Lean                                           |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.12534)         |
+| 2024-12  | ProcessBench: Identifying Process Errors in Mathematical Reasoning                                                    |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.06559)      |
+| 2025-05  | ProofNet++: A Neuro-Symbolic System for Formal Proof Verification with Self-Correction                                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.24230)         |
+| 2026-01  | Neural Theorem Proving for Verification Conditions: A Real-World Benchmark(NTP4VC​)                                            |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.18944)         |
+
+
+##### Proof verification and interactive proof
+
+| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
+| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2021-09  | MINIF2F: A CROSS-SYSTEM BENCHMARK FOR FORMAL OLYMPIAD-LEVEL MATHEMATICS  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2109.00110) |
+| 2024-07  | PUTNAMBENCH: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2407.11214) |
+| 2025-02  | FormalSpecCpp: A Dataset of C++ Formal Specifications created using LLMs       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.15217) |
+| 2025-05  | FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.02735) |
+| 2025-05  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.23281) |
+| 2025-07  | VeriBench: End-to-End Formal Verification Benchmark for AI Code Generation in Lean 4           | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/pdf?id=rWkGFmnSNl) |
+| 2025-09  | IMPROOFBENCH: BENCHMARKING AI ON RESEARCHLEVEL MATHEMATICAL PROOF GENERATION     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.26076) |
+| 2025-10  | VeriBench-FTP: A Formal Theorem Proving Benchmark in Lean 4 for Code Verification        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/pdf?id=wDjOpXKgtU) |
+| 2025-10  | VERIEQUIVBENCH: AN EQUIVALENCE SCORE FOR GROUND-TRUTH-FREE EVALUATION OF FORMALLY VERIFIABLE CODE       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.06296) |
+| 2025-10  | HARD2VERIFY: A STEP-LEVEL VERIFICATION BENCHMARK FOR OPEN-ENDED FRONTIER MATH    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.13744) |
+| 2025-11  | Spark-Prover-X1: Formal Theorem Proving Through Diverse Data Training      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2511.13043) |
+
+
+
+
+#### Abstraction and induction
+
+##### Combinatorial generalization and systematic generalization
+| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
+| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2021-09  | Systematic Generalization on gSCAN:What is Nearly Solved and What is Next?   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2109.12243) | 
+| 2021-11  | Grounded Graph Decoding Improves Compositional Generalization in Question Answering    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2111.03642) | 
+| 2025-05  |The ConceptARC Benchmark:Evaluating Understanding and Generalization in the ARC Domain  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.07141) | 
+| 2023-10  | SLOG: A Structural Generalization Benchmark for Semantic arsing      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2310.15040) | 
+| 2024-10  | Tackling the Abstraction and Reasoning Corpus with Vision Transformers: the Importance of 2D Representation, Positions, and Objects  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.06405) | 
+| 2024-12  | NeSyCoCo: A Neuro-Symbolic Concept Composer for Compositional Generalization | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.15588) | 
+| 2025-06  | EasyARC: Evaluating Vision Language Models on True Visual Reasoning   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.11595) | 
+| 2025-07  | CompoST: A Benchmark for Analyzing the Ability of LLMs To Compositionally Interpret Questions in a QALD Setting     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.21257) | 
+| 2025-09  | Can Constructions “SCAN” Compositionality ?    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.20074) | 
+| 2025-11  | DecompSR: A dataset for decomposed analyses of compositional multihop spatial reasoning   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2511.02627) | 
+
+##### Rule induction and program synthesis
+| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
+| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2021-05  | Measuring Coding Challenge Competence With APPS   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.09938) |
+| 2024-10  | Tackling the Abstraction and Reasoning Corpus with Vision Transformers: the Importance of 2D Representation, Positions, and Objects   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.06405) | 
+| 2024-12  | HumanEval Pro and MBPP Pro: Evaluating Large Language Models son Self-invoking Code Generation    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.21199) | 
+| 2025-03  | CodeARC: Benchmarking Reasoning Capabilities of LLM Agents for Inductive Program Synthesis    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2503.23145) | 
+| 2025-05  | Legal Rule Induction: Towards Generalizable Principle Discovery from Analogous Judicial Precedents   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.14104) | 
+
+### 2. Mathematical Deep Reasoning
+
+#### Fundamental Mathematics  
+
+##### General Basic Mathematics 
+|  Date   | Title                                                                                              |                                                                 Paper                                                                  |
+| :-----: | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2024-10 | GSM-SYMBOLIC: UNDERSTANDING THE LIMITATIONS OF MATHEMATICAL REASONING IN LARGE LANGUAGE MODELS     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.05229) |
+| 2024-06 | MMLU-Pro: A More Challenging and Discriminative Massive Multitask Language Understanding Benchmark | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01574) |
+| 2024-05 | MathBench: A Comprehensive Multi-level Benchmark for Evaluating Mathematical Capabilities          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.12209) |
+| 2024-05 | A Careful Examination of Large Language Model Performance on Grade School Arithmetic(GSM1k)        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.00332) |
+| 2022-11 | PAL: Program-aided Language Models(GSM-HARD)                                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2211.10435) |
+| 2021-10 | Grade School Math 8K(GSM8K​)                                                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2110.14168) |
+| 2021-03 | SVAMP: Simple Variations on Arithmetic Math Problems                                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2103.07191) |
+| 2021-02 | AMPS: A Mathematical Problem Set                                                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2102.04774) |
+
+
+
+##### Adversarially Robust Mathematics  
+| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
+| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2024-02  | GSM-Plus: A Comprehensive Benchmark for Evaluating the Robustness of LLMs as Mathematical Problem Solvers             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.19255) |
+| 2024-05  | A Careful Examination of Large Language Model Performance on Grade School Arithmetic                                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.00332) |
+| 2024-06  | LiveBench: A Difficult LLM Benchmark Consisting of Frequently-Updated Questions                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.19314) |
+| 2024-10  | GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.05229) |
+| 2024-12  | Are Your LLMs Capable of Stable Reasoning?(livemathbench)                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.13147v4) |
+| 2025-05  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281) |
+| 2025-08  | ASyMOB: Algebraic Symbolic Mathematical Operations Benchmark                                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.23851) |
+| 2025-10  | MATHEMAGIC: Generating Dynamic Mathematics Benchmarks Robust to Memorization                                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.05962) |
+
+
+##### Arithmetic and algebra
+| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
+| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2021-03  | Are NLP Models really able to Solve Simple Math Word Problems?      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.07191) |
+| 2021-06  | A Diverse Corpus for Evaluating and Developing English Math Word Problem Solvers     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2106.15772) |
+| 2021-10  | Training Verifiers to Solve Math Word Problems       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2110.14168) |
+| 2023-04  | AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.06364) |
+
+##### Geometry and discrete
+| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
+| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2021-05  | Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.04165) |
+| 2021-05  | GeoQA: A Geometric Question Answering Benchmark Towards Multimodal Numerical Reasoning      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.14517) |
+| 2024-03  | ARE LANGUAGE MODELS PUZZLE PRODIGIES? Algorithmic Puzzles Unveil Serious Challenges in Multimodal Reasoning  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2403.03864) |
+| 2024-07  | Fuse, Reason and Verify: Geometry Problem Solving with Parsed Clauses from Diagram    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2407.07327v1) |
+| 2025-05  | FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.02735) |
+| 2025-08  | LEANGEO: FORMALIZING COMPETITIONAL GEOMETRY PROBLEMS IN LEAN  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2508.14644) |
+| 2025-09  | Euclid’s Gift: Enhancing Spatial Perception and Reasoning in Vision-Language Models via Geometric Surrogate Tasks | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.24473) |
+| 2025-10  | AMO-Bench: Large Language Models Still Struggle in High School Math Competitions | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.26768) |
+| 2025-12  | Gold-Medal-Level Olympiad Geometry Solving with Efficient Heuristic Auxiliary Constructions  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2512.00097) |
+
+
+##### Probability, statistics, and uncertainty
+| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
+| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2021-03  | Measuring Mathematical Problem Solving With the MATH Dataset     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.03874) |
+| 2025-01  | UGMATHBENCH: A DIVERSE AND DYNAMIC BENCHMARK FOR UNDERGRADUATE-LEVEL MATHEMATICAL REASONING WITH LARGE LANGUAGE MODELS     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.13766) |
+| 2025-10  | SKYLENAGE Technical Report: Mathematical Reasoning and Contest-Innovation Benchmarks for Multi-Level Math Evaluation   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01241) |
+| 2025-12  | Nemotron-Math: Efficient Long-Context Distillation of Mathematical Reasoning from Multi-Mode Supervision     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2512.15489) |
+
+
+#### Advanced Mathematics
+
+##### Competition Mathematics
+|  Date   | Title                                                                                                                 |                                                                 Paper                                                                  |
+| :-----: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2025-11 | Towards Robust Mathematical Reasoning                                                                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.01846) |
+| 2025-10 | SKYLENAGE Technical Report: Mathematical Reasoning and Contest-Innovation Benchmarks for Multi-Level Math Evaluation  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01241) |
+| 2025-10 | AMO-Bench: Large Language Models Still Struggle in High School Math Competitions                                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.26768) |
+| 2025-08 | Putnam-AXIOM: A Functional & Static Benchmark for Measuring Higher Level Mathematical Reasoning in LLMs               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2508.08292) |
+| 2025-05 | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281) |
+| 2025-03 | OlymMATH: A Novel Olympiad-level Mathematical Benchmark                                                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.21380) |
+| 2024-10 | Omni-MATH: A Universal Olympiad-level Mathematic Benchmark for Large Language Models                                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.07985) |
+| 2024-07 | PUTNAMBENCH: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.11214) |
+| 2024-02 | OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-level Bilingual Multimodal Scientific Problems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.14008) |
+
+
+##### Spectral Mathematics
+|  Date   | Title                                                                                                                  |                                                                 Paper                                                                  |
+| :-----: | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2025-05 | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                                         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281) |
+| 2025-05 | FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.02735) |
+| 2025-01 | UGMATHBENCH: A DIVERSE AND DYNAMIC BENCHMARK FOR UNDERGRADUATE-LEVEL MATHEMATICAL REASONING WITH LARGE LANGUAGE MODELS | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.13766) |
+| 2024-06 | MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark                                    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01574) |
+| 2024-06 | LiveBench: A Difficult LLM Benchmark Consisting of Frequently-Updated Questions                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.19314) |
+| 2024-05 | MathBench: A Comprehensive Multi-level Benchmark for Evaluating Mathematical Capabilities                              | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.12209) |
+| 2023-11 | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022) |
+| 2023-10 | MATHVISTA: EVALUATING MATHEMATICAL REASONING OF FOUNDATION MODELS IN VISUAL CONTEXTS                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2310.02255) |
+
+
+
+### 3. Knowledge Enhanced & Context Reasoning
+
+#### Multi-hop Reasoning
+##### Multi-hop Answering
+|  Date   | Title                                                                                                         |                                                                  Paper                                                                   |
+| :-----: | :------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------: |
+| 2024-12 | MINTQA: A Multi-Hop Question Answering Benchmark for Evaluating LLMs on New and Tail Knowledge                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.17032v2) |
+| 2024-01 | MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries                               |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2401.15391)  |
+| 2023-11 | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                             |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022)  |
+| 2023-10 | FRESHLLMS:REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION                                    |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2310.03214)  |
+| 2022-10 | WIKIWHY: ANSWERING AND EXPLAINING CAUSE-AND-EFFECT QUESTIONS                                                  |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2210.12152)  |
+| 2022-05 | QAMPARI: An Open-domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2205.12665)  |
+| 2021-08 | MuSiQue: Multihop Question Answering Over Multiple Paragraphs                                                 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2108.00574)  |
+| 2021-04 | MULTIMODALQA: COMPLEX QUESTION ANSWERING OVER TEXT, TABLES AND IMAGES                                         |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.06039)  |
+| 2021-01 | StrategyQA: A Benchmark for Question Answering that Requires Implicit Reasoning Steps                         |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2101.02235)  |
+
+
+##### Multi-hop Retrieval
+
+
+
+
+|  Date   | Title                                                                                |                                                                 Paper                                                                  |
+| :-----: | :----------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2026-01 | TEMPO: A Realistic Multi-Domain Benchmark for Temporal Reasoning-Intensive Retrieval | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.09523) |
+| 2024-01 | MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.15391) |
+| 2023-11 | LongBench: A Comprehensive, Bilingual Benchmark for Long-Context Understanding       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.09552) |
+| 2023-11 | GAIA: a benchmark for General AI Assistants                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12983) |
+| 2023-09 | Ragas: Automated Evaluation of Retrieval Augmented Generation                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.15217) |
+| 2023-05 | Gorilla: Large Language Model Connected with Massive APIs                            | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.15334) |
+| 2022-03 | REASONING OVER PUBLIC AND PRIVATE DATA IN RETRIEVAL-BASED SYSTEMS(CONCURRENTQA)      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2203.11027) |
+
+#### Long-context Reasoning
+
+##### Long-horizon Tasks
+
+
+
+|  Date   | Title                                                                                             |                                                                        Paper                                                                        |
+| :-----: | :------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 2025-10 | LC-Eval: A Bilingual Multi-Task Evaluation Benchmark for Long-Context Understanding               |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.16783)        |
+| 2025-05 | LongLeader: A Comprehensive Leaderboard for Large Language Models in Long-context Scenarios       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://aclanthology.org/2025.naacl-long.439/) |
+| 2025-05 | 100-LongBench: Are de facto Long-Context Benchmarks Literally Evaluating Long-Context Ability?    |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.19293v1)       |
+| 2025-02 | DocPuzzle: A Process-Aware Benchmark for Evaluating Realistic Long-Context Reasoning Capabilities |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.17807)        |
+| 2024-12 | LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks     |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.15204)        |
+| 2024-10 | LONGGENBENCH: Long-context Generation Benchmark                                                   |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.04199)        |
+| 2024-10 | HELMET: HOW TO EVALUATE LONG-CONTEXT LANGUAGE MODELS EFFECTIVELY AND THOROUGHLY                   |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.02694)        |
+| 2024-06 | BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack                    |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2406.10149)        |
+| 2024-04 | Ada-LEval: A Length-Adaptable Benchmark for Evaluating the Long-Context Understanding of LLMs     |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.06480)        |
+| 2024-04 | RULER: What’s the Real Context Size of Your Long-Context Language Models?                         |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.06654)        |
+| 2024-02 | ∞BENCH: Extending Long Context Evaluation Beyond 100K Tokens                                      |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2402.13718v3)       |
+| 2023-11 | FINANCEBENCH: A New Benchmark for Financial Question Answering                                    |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2311.11944)        |
+| 2023-11 | LongBench: A Comprehensive, Bilingual Benchmark for Long-Context Understanding                    |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.09552)        |
+| 2023-05 | VCSUM: A Versatile Chinese Meeting Summarization Dataset                                          |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.05280)        |
+| 2023-04 | LongForm: Effective Instruction Tuning with Reverse Instructions                                  |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2304.08460)        |
+| 2022-02 | MuLD: The Multitask Long Document Benchmark                                                       |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2202.07362)        |
+| 2022-01 | SCROLLS: Standardized CompaRison Over Long Language Sequences                                     |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2201.03533)        |
+
+
+
+##### Distraction
+
+| Date  | Title                                                                                               |                                                                 Paper                                                                  |
+| :---: | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2023-07  | L-EVAL: INSTITUTING STANDARDIZED EVALUATION FOR LONG CONTEXT LANGUAGE MODELS                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2307.11088) |
+| 2023-08  | LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding                     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.14508) |
+| 2024-03  | Long-form factuality in large language models(LongFact)                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2403.18802) |
+| 2024-04  | Ada-LEval: A Length-Adaptable Benchmark for Evaluating the Long-Context Understanding of LLMs       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.06480) |
+| 2024-04  | RULER: What’s the Real Context Size of Your Long-Context Language Models?                           | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.06654) |
+| 2024-06  | BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2406.10149) |
+| 2024-07  | NeedleBench: A Comprehensive Synthetic Framework for Evaluating Retrieval and Reasoning Performance | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.11963) |
+| 2024-07 | MMLongBench-Doc: Benchmarking Long-context Document Understanding with Visualizations                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge\&logo=arxiv\&logoColor=white)](https://arxiv.org/abs/2407.01523) |
+| 2024-02 | $\infty$Bench: Extending Long Context Evaluation Beyond 100K Tokens                                         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge\&logo=arxiv\&logoColor=white)](https://arxiv.org/abs/2402.13718)|
+| 2024-10  | HELMET: HOW TO EVALUATE LONG-CONTEXT LANGUAGE MODELS EFFECTIVELY AND THOROUGHLY                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.02694) |
+| 2025-05  | 100-LongBench: Are de facto Long-Context Benchmarks Literally Evaluating Long-Context Ability?            | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.19293v1) |
+
+
+##### Long-range State Reasoning
+| Date  | Title                                                                                               |                                                                 Paper                                                                  |
+| :---: | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2023-06  | MIND2WEB: Towards a Generalist Agent for the Web     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2306.06070) |
+| 2023-12  | EgoPlan-Bench: Benchmarking Multimodal Large Language Models for Human-Level Planning      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2312.06722) |
+| 2024-11  | PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2411.00081) |
+| 2025-01  | R-HORIZON: How Far Can Your Large Reasoning Model Really Go in Breadth and Depth?       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.08189) |
+| 2025-09  | SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.16941) |
+| 2026-01  | SokoBench: Evaluating Long-Horizon Planning and Reasoning in Large Language Models          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.20856) |
+| 2026-01  | DEEPPLANNING: Benchmarking Long-Horizon Agentic Planning with Verifiable Constraints         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.18137) |
+| 2026-02  | TRIP-Bench: A Benchmark for Long-Horizon Interactive Agents in Real-World Scenarios        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2602.01675) |
+| 2026-02  | LLM-WikiRace Benchmark: How Far Can LLMs Plan over Real-World Knowledge Graphs?     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2602.16902) |
+| 2026-02  | EcoGym: Evaluating LLMs for Long-Horizon Plan-and-Execute in Interactive Economies   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2602.09514) |
+
+### 4. Agentic Reasoning
+
+####  Long-horizon Planning and Decision-making
+
+##### Web Navigation
+
+|  Date   | Title                                                                                     |                                                                 Paper                                                                  |
+| :-----: | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2025-06 | Mind2Web 2:Evaluating Agentic Search with Agent-as-a-Judge                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.21506) |
+| 2025-05 | InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.15872) |
+| 2025-04 | BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2504.12516) |
+| 2024-06 | WebCanvas: Benchmarking Web Agents in Online Environments                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.12373) |
+| 2024-01 | WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.13919) |
+| 2023-11 | GAIA: a benchmark for General AI Assistants                                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12983) |
+| 2023-08 | AgentBench: A Comprehensive Benchmark to Evaluate LLMs as Agents                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.03688) |
+| 2023-07 | WebArena: A Realistic Self-Hosted Web Environment for Building Autonomous Agents          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.13854) |
+| 2023-06 | Mind2Web: Towards a Generalist Agent for the Web                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.06070) |
+
+##### Interactive Environment
+|  Date   | Title                                                                                                             |                                                                 Paper                                                                  |
+| :-----: | :---------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
+| 2025-10 | HOLISTIC AGENT LEADERBOARD: THE MISSING INFRASTRUCTURE FOR AI AGENT EVALUATION(HAL)                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.11977) |
+| 2025-05 | FieldWorkArena: Agentic AI Benchmark for Real Field Work Tasks                                                    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.19662) |
+| 2025-04 | PaperBench: Evaluating AI’s Ability to Replicate AI Research                                                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2504.01848) |
+| 2025-01 | MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.14654) |
+| 2024-07 | AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2407.18901) |
+| 2024-06 | τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.12045) |
+| 2024-05 | AgentClinic: a multimodal agent benchmark to evaluate AI in simulated clinical environments                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.07960) |
+| 2024-04 | OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.07972) |
+| 2024-02 | OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2402.17553) |
+| 2024-01 | EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2401.07128) |
+| 2023-10 | SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.11667) |
+| 2023-08 | AgentBench: A Comprehensive Benchmark to Evaluate LLMs as Agents                                                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.03688) |
+| 2023-05 | MULTIMODAL WEB NAVIGATION WITH INSTRUCTIONFINETUNED FOUNDATION MODELS(WebGUM)                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.11854) |
+| 2022-07 | WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2207.01206) |
+| 2022-03 | ScienceWorld: Is Your Agent Smarter than a Fifth Grader?                                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.07540) |
+
+####  Tool Calling and Code Reasoning
+
+##### Tool Calling
+
+
+|  Date   | Title                                                                                                          |                                                                      Paper                                                                       |
+| :-----: | :------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| 2026-02 | MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers                               |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2602.00933)    |
+| 2025-05 | The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/forum?id=2GmDdhBdDk) |
+| 2025-01 | ACEBench: Who Wins the Match Point in Tool Usage?                                                              |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.12851)      |
+| 2024-08 | TOOLSANDBOX: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities        |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2408.04682)      |
+| 2024-05 | Seal-Tools: Self-Instruct Tool Learning Dataset for Agent Tuning and Detailed Benchmark                        |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.08355)      |
+| 2024-03 | StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models             |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2403.07714)      |
+| 2023-07 | ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs                                   |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.16789)      |
+| 2023-06 | ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases                            |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2306.05301)      |
+| 2023-05 | Gorilla: Large Language Model Connected with Massive APIs                                                      |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.15334)      |
+| 2023-05 | APIBench (part of Gorilla project)                                                                             |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.15334)      |
+| 2023-04 | API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs                                                    |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.08244)      |
+| 2023-02 | Toolformer: Language Models Can Teach Themselves to Use Tools                                                  |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.04761)      |
+
+
+
+##### Executable Code
+
+| Date  | Title                                                                                |                                                                         Paper                                                                         |
+| :---: | :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 2021-02  | CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation               |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2102.04664)         |
+| 2021-05  | CodeNet: A Large-Scale AI for Code Dataset for Learning a Diversity of Coding Tasks                  |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.12655)         |
+| 2021-07  | HumanEval: Evaluating Large Language Models Trained on Code                          |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2107.03374)         |
+| 2021-08  | Program Synthesis with Large Language Models(MBPP)                          |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2108.07732)         |
+| 2022-11  |DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation               |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2211.11501)         |
+| 2023-02  |CoderEval: A Benchmark of Pragmatic Code Generation with Generative Pre-trained Models              |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2302.00288)         |
+| 2023-06  | InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.14898)         |
+| 2023-06  | RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2306.03091)         |
+| 2023-10  | SWE-bench: Can Language Models Resolve Real-World GitHub Issues?                     |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.06770)         |
+| 2024-02  | API-BLEND: A Comprehensive Corpora for Training and Benchmarking API LLMs                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2402.15491)         |
+| 2024-03  | LiveCodeBench: Holistic and Contamination-Free Evaluation for Code                   |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.07974)         |
+| 2024-05  | DevEval: A Manually-Annotated Code Generation Benchmark Aligned with Real-World Code Repositories             |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.19856)         |
+| 2024-12  | EXECREPOBENCH: Multi-level Executable Code Completion Evaluation                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.11990)         |
+| 2024-12  | FullStack Bench: Evaluating LLMs as Full Stack Coders                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.00535)         |
+| 2025-05  | DSCodeBench: A Realistic Benchmark for Data Science Code Generation                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.15621)         |
+| 2025-06  | LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.11928)         |
+| 2025-06  | CodeContests+: High-Quality Test Case Generation for Competitive Programming                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.05817)         |
+| 2026-01  | From Laboratory to Real-World Applications: Benchmarking Agentic Code Reasoning at the Repository Level(RepoReason)             |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/pdf/2601.03731)         |
+
+
+##### Multi-Agent Collaboration
+| Date  | Title                                                                                |                                                                         Paper                                                                         |
+| :---: | :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 2024-12  | TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.14161)         |
+| 2025-02  | REALM-Bench: A Benchmark for Evaluating Multi-Agent Systems on Real-world, Dynamic Planning and Scheduling Tasks      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.18836)         |
+| 2025-03  | MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents              |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2503.01935)         |
+| 2025-07  | CREW-Wildfire: Benchmarking Agentic Multi-Agent Collaborations at Scale    |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.05178)         |
+| 2025-07  | AGENTSNET: Coordination and Collaborative Reasoning in Multi-Agent LLMs     |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.08616)         |
+| 2025-10  | PaperArena: An Evaluation Benchmark for Tool-Augmented Agentic Reasoning on Scientific Literature      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.10909)         |
+| 2026-01  | M3MAD-Bench:Are Multi-Agent Debates Really Effective Across Domains and Modalities?     |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.02854)         |
+
+
+
+
+## Setting (How: Construction of Reasoning Benchmarks)
+
+### Data Source
 
 #### 1. Real-World Collection
 
@@ -568,412 +971,11 @@
 | 2021-04 | MultiModalQA: Complex Question Answering over Text, Tables and Images | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.06039) |
 | 2021-04 | Dynabench: Rethinking Benchmarking in NLP | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2104.14337) |
 
-## Object (What: Core Classification of Reasoning Benchmarks)
-
-### 1. Symbolic & Logic Reasoning
-
-#### Deduction and Constraints
-
-##### Rule-Based Chain Reasoning
-
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |
-| :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: |
-| 2025-11 | EngChain: A Symbolic Benchmark for Verifiable Multi-Step Reasoning in Engineering                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.01650v1) |
-| 2024-06 | Multi-LogiEval: Towards Evaluating Multi-Step Logical Reasoning Ability of Large Language Models                 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.17169)  |
-| 2024-04 | LogicBench: Towards Systematic Evaluation of Logical Reasoning Ability of Large Language Models                  |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.15522)  |
-| 2024-01 | LogicAsker: Evaluating and Improving the Logical Reasoning Ability of Large Language Models                      |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.00757)  |
-| 2023-10 | Towards LogiGLUE: A Brief Survey and A Benchmark for Analyzing Logical Reasoning Capabilities of Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.00836)  |
-| 2023-05 | Chain-of-Thought Hub: A Continuous Effort to Measure Large Language Models’ Reasoning Performance                |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.17306)  |
-| 2022-10 | LANGUAGE MODELS ARE GREEDY REASONERS:A SYSTEMATIC FORMAL ANALYSIS OF CHAIN-OFTHOUGHT(PRONTOQA)                 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2210.01240)  |
-| 2022-09 | FOLIO: Natural Language Reasoning with First-Order Logic                                                         |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2209.00840)  |
-| 2021-04 | AR-LSAT: Investigating Analytical Reasoning of Text                                                              |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.06598)  |
-| 2021-04 | NATURALPROOFS: Mathematical Theorem Proving in Natural Language                                                  |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.01112)  |
-| 2021-04 | Explaining Answers with Entailment Trees(ENTAILMENTBANK)                                                       |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.08661)  |
-
-
-
-
-##### Constraint Satisfaction and Interactive Games
-
-|  Date   | Title                                                                                                       |                                                                 Paper                                                                  |
-| :-----: | :---------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2026-01 | ChaosBench-Logic: A Benchmark for Logical and Symbolic Reasoning on Chaotic Dynamical Systems               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.01982) |
-| 2025-05 | SATBench: Benchmarking LLMs' Logical Reasoning via Automated Puzzle Generation from SAT Formulas            | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.14615) |
-| 2025-05 | SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.19641) |
-| 2025-02 | BIG-Bench Extra Hard                                                                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.19187) |
-| 2025-02 | AutoLogi: Automated Generation of Logic Puzzles for Evaluating Reasoning Abilities of Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.16906) |
-| 2024-08 | LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models                             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.15778) |
-| 2023-05 | SatLM: Satisfiability-Aided Language Models Using Declarative Prompting                                     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.09656) |
-| 2022-06 | MINEDOJO: Building Open-Ended Embodied Agents with Internet-Scale Knowledge                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2206.08853) |
-| 2022-03 | SCIENCEWORLD: Is your Agent Smarter than a 5th Grader?                                                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2203.07540) |
-| 2022-02 | DialFRED: Dialogue-Enabled Agents for Embodied Instruction Following                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2202.13330) |
-
-
-
-
-#### Formal Logic and Proof
-
-##### Formalization of Natural Language
-
-|  Date   | Title                                                                                                   |                                                                        Paper                                                                        |
-| :-----: | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2026-01 | ChaosBench-Logic: A Benchmark for Logical and Symbolic Reasoning on Chaotic Dynamical Systems           |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.01982)        |
-| 2025-09 | INABHYD:Language Models Do Not Follow Occam’s Razor:A Benchmark for Inductive and Abductive Reasoning  |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.03345v1)       |
-| 2024-10 | P-FOLIO: Evaluating and Improving Logical Reasoning with Abundant Human-Written Reasoning Chains        |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.09207)        |
-| 2024-06 | Multi-LogiEval: Towards Evaluating Multi-Step Logical Reasoning Ability of Large Language Models        |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.17169)        |
-| 2024-05 | Autoformalizing Natural Language to First-Order Logic:A Case Study in Logical Fallacy Detection(NL2FOL) |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.02318)        |
-| 2024-03 | Towards Automatic Composition of ASP Programs from Natural Language Specifications                      |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2403.04541)        |
-| 2022-10 | Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought                  |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.01240)        |
-| 2022-09 | FOLIO: Natural Language Reasoning with First-Order Logic                                                |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2209.00840)        |
-| 2022-03 | LOGICINFERENCE: A NEW DATASET FOR TEACHING LOGICAL INFERENCE TO SEQ2SEQ MODELS                          |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2203.15099)        |
-| 2022-02 | Logical Fallacy Detection                                                                               |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2202.13758)        |
-| 2021-11 | Diagnosing the First-Order Logical Reasoning Ability Through LogicNLI                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://aclanthology.org/2021.emnlp-main.303/) |
-| 2021-09 | MINIF2F: A CROSS-SYSTEM BENCHMARK FOR FORMAL OLYMPIAD-LEVEL MATHEMATICS                                 |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2109.00110)        |
-
-
-##### Proof Generation
-| Date  | Title                                                                                                                 |                                                                         Paper                                                                         |
-| :---: | :-------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2021-04  | NATURALPROOFS: Mathematical Theorem Proving in Natural Language                     |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.01112)         |
-| 2021-05  |Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning(Geometry3K )              |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.04165)      |
-| 2021-09  |MINIF2F: A CROSS-SYSTEM BENCHMARK FOR FORMAL OLYMPIAD-LEVEL MATHEMATICS                                                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2109.00110)      |
-| 2023-02  | ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics                                        |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https:https://arxiv.org/abs/2302.12433)         |
-| 2023-12  | Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations                                       |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.08935)         |
-| 2024-02  | SymBa: Symbolic Backward Chaining for Structured Natural Language Reasoning                                           |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.12806)         |
-| 2024-04  | Lean Copilot: Large Language Models as Copilots for Theorem Proving in Lean                                           |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.12534)         |
-| 2024-12  | ProcessBench: Identifying Process Errors in Mathematical Reasoning                                                    |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.06559)      |
-| 2025-05  | ProofNet++: A Neuro-Symbolic System for Formal Proof Verification with Self-Correction                                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.24230)         |
-| 2026-01  | Neural Theorem Proving for Verification Conditions: A Real-World Benchmark(NTP4VC​)                                            |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.18944)         |
-
-
-##### Proof verification and interactive proof
-
-| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
-| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2021-09  | MINIF2F: A CROSS-SYSTEM BENCHMARK FOR FORMAL OLYMPIAD-LEVEL MATHEMATICS  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2109.00110) |
-| 2024-07  | PUTNAMBENCH: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2407.11214) |
-| 2025-02  | FormalSpecCpp: A Dataset of C++ Formal Specifications created using LLMs       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.15217) |
-| 2025-05  | FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.02735) |
-| 2025-05  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.23281) |
-| 2025-07  | VeriBench: End-to-End Formal Verification Benchmark for AI Code Generation in Lean 4           | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/pdf?id=rWkGFmnSNl) |
-| 2025-09  | IMPROOFBENCH: BENCHMARKING AI ON RESEARCHLEVEL MATHEMATICAL PROOF GENERATION     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.26076) |
-| 2025-10  | VeriBench-FTP: A Formal Theorem Proving Benchmark in Lean 4 for Code Verification        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/pdf?id=wDjOpXKgtU) |
-| 2025-10  | VERIEQUIVBENCH: AN EQUIVALENCE SCORE FOR GROUND-TRUTH-FREE EVALUATION OF FORMALLY VERIFIABLE CODE       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.06296) |
-| 2025-10  | HARD2VERIFY: A STEP-LEVEL VERIFICATION BENCHMARK FOR OPEN-ENDED FRONTIER MATH    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.13744) |
-| 2025-11  | Spark-Prover-X1: Formal Theorem Proving Through Diverse Data Training      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2511.13043) |
-
-
-
-
-#### Abstraction and induction
-
-##### Combinatorial generalization and systematic generalization
-| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
-| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2021-09  | Systematic Generalization on gSCAN:What is Nearly Solved and What is Next?   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2109.12243) | 
-| 2021-11  | Grounded Graph Decoding Improves Compositional Generalization in Question Answering    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2111.03642) | 
-| 2025-05  |The ConceptARC Benchmark:Evaluating Understanding and Generalization in the ARC Domain  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.07141) | 
-| 2023-10  | SLOG: A Structural Generalization Benchmark for Semantic arsing      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2310.15040) | 
-| 2024-10  | Tackling the Abstraction and Reasoning Corpus with Vision Transformers: the Importance of 2D Representation, Positions, and Objects  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.06405) | 
-| 2024-12  | NeSyCoCo: A Neuro-Symbolic Concept Composer for Compositional Generalization | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.15588) | 
-| 2025-06  | EasyARC: Evaluating Vision Language Models on True Visual Reasoning   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.11595) | 
-| 2025-07  | CompoST: A Benchmark for Analyzing the Ability of LLMs To Compositionally Interpret Questions in a QALD Setting     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.21257) | 
-| 2025-09  | Can Constructions “SCAN” Compositionality ?    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.20074) | 
-| 2025-11  | DecompSR: A dataset for decomposed analyses of compositional multihop spatial reasoning   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2511.02627) | 
-
-##### Rule induction and program synthesis
-| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
-| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2021-05  | Measuring Coding Challenge Competence With APPS   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.09938) |
-| 2024-10  | Tackling the Abstraction and Reasoning Corpus with Vision Transformers: the Importance of 2D Representation, Positions, and Objects   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.06405) | 
-| 2024-12  | HumanEval Pro and MBPP Pro: Evaluating Large Language Models son Self-invoking Code Generation    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.21199) | 
-| 2025-03  | CodeARC: Benchmarking Reasoning Capabilities of LLM Agents for Inductive Program Synthesis    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2503.23145) | 
-| 2025-05  | Legal Rule Induction: Towards Generalizable Principle Discovery from Analogous Judicial Precedents   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.14104) | 
-
-### 2. Mathematical Deep Reasoning
-
-#### Fundamental Mathematics  
-
-##### General Basic Mathematics 
-|  Date   | Title                                                                                              |                                                                 Paper                                                                  |
-| :-----: | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2024-10 | GSM-SYMBOLIC: UNDERSTANDING THE LIMITATIONS OF MATHEMATICAL REASONING IN LARGE LANGUAGE MODELS     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.05229) |
-| 2024-06 | MMLU-Pro: A More Challenging and Discriminative Massive Multitask Language Understanding Benchmark | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01574) |
-| 2024-05 | MathBench: A Comprehensive Multi-level Benchmark for Evaluating Mathematical Capabilities          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.12209) |
-| 2024-05 | A Careful Examination of Large Language Model Performance on Grade School Arithmetic(GSM1k)        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.00332) |
-| 2022-11 | PAL: Program-aided Language Models(GSM-HARD)                                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2211.10435) |
-| 2021-10 | Grade School Math 8K(GSM8K​)                                                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2110.14168) |
-| 2021-03 | SVAMP: Simple Variations on Arithmetic Math Problems                                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2103.07191) |
-| 2021-02 | AMPS: A Mathematical Problem Set                                                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2102.04774) |
-
-
-
-##### Adversarially Robust Mathematics  
-| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
-| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2024-02  | GSM-Plus: A Comprehensive Benchmark for Evaluating the Robustness of LLMs as Mathematical Problem Solvers             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.19255) |
-| 2024-05  | A Careful Examination of Large Language Model Performance on Grade School Arithmetic                                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.00332) |
-| 2024-06  | LiveBench: A Difficult LLM Benchmark Consisting of Frequently-Updated Questions                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.19314) |
-| 2024-10  | GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.05229) |
-| 2024-12  | Are Your LLMs Capable of Stable Reasoning?(livemathbench)                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.13147v4) |
-| 2025-05  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281) |
-| 2025-08  | ASyMOB: Algebraic Symbolic Mathematical Operations Benchmark                                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.23851) |
-| 2025-10  | MATHEMAGIC: Generating Dynamic Mathematics Benchmarks Robust to Memorization                                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.05962) |
-
-
-##### Arithmetic and algebra
-| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
-| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2021-03  | Are NLP Models really able to Solve Simple Math Word Problems?      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.07191) |
-| 2021-06  | A Diverse Corpus for Evaluating and Developing English Math Word Problem Solvers     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2106.15772) |
-| 2021-10  | Training Verifiers to Solve Math Word Problems       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2110.14168) |
-| 2023-04  | AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.06364) |
-
-##### Geometry and discrete
-| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
-| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2021-05  | Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.04165) |
-| 2021-05  | GeoQA: A Geometric Question Answering Benchmark Towards Multimodal Numerical Reasoning      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.14517) |
-| 2024-03  | ARE LANGUAGE MODELS PUZZLE PRODIGIES? Algorithmic Puzzles Unveil Serious Challenges in Multimodal Reasoning  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2403.03864) |
-| 2024-07  | Fuse, Reason and Verify: Geometry Problem Solving with Parsed Clauses from Diagram    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2407.07327v1) |
-| 2025-05  | FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.02735) |
-| 2025-08  | LEANGEO: FORMALIZING COMPETITIONAL GEOMETRY PROBLEMS IN LEAN  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2508.14644) |
-| 2025-09  | Euclid’s Gift: Enhancing Spatial Perception and Reasoning in Vision-Language Models via Geometric Surrogate Tasks | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.24473) |
-| 2025-10  | AMO-Bench: Large Language Models Still Struggle in High School Math Competitions | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.26768) |
-| 2025-12  | Gold-Medal-Level Olympiad Geometry Solving with Efficient Heuristic Auxiliary Constructions  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2512.00097) |
-
-
-##### Probability, statistics, and uncertainty
-| Date  | Title                                                                                                                 |                                                                 Paper                                                                  |
-| :---: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2021-03  | Measuring Mathematical Problem Solving With the MATH Dataset     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.03874) |
-| 2025-01  | UGMATHBENCH: A DIVERSE AND DYNAMIC BENCHMARK FOR UNDERGRADUATE-LEVEL MATHEMATICAL REASONING WITH LARGE LANGUAGE MODELS     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.13766) |
-| 2025-10  | SKYLENAGE Technical Report: Mathematical Reasoning and Contest-Innovation Benchmarks for Multi-Level Math Evaluation   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01241) |
-| 2025-12  | Nemotron-Math: Efficient Long-Context Distillation of Mathematical Reasoning from Multi-Mode Supervision     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2512.15489) |
-
-
-#### Advanced Mathematics
-
-##### Competition Mathematics
-|  Date   | Title                                                                                                                 |                                                                 Paper                                                                  |
-| :-----: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2025-11 | Towards Robust Mathematical Reasoning                                                                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.01846) |
-| 2025-10 | SKYLENAGE Technical Report: Mathematical Reasoning and Contest-Innovation Benchmarks for Multi-Level Math Evaluation  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01241) |
-| 2025-10 | AMO-Bench: Large Language Models Still Struggle in High School Math Competitions                                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.26768) |
-| 2025-08 | Putnam-AXIOM: A Functional & Static Benchmark for Measuring Higher Level Mathematical Reasoning in LLMs               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2508.08292) |
-| 2025-05 | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281) |
-| 2025-03 | OlymMATH: A Novel Olympiad-level Mathematical Benchmark                                                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.21380) |
-| 2024-10 | Omni-MATH: A Universal Olympiad-level Mathematic Benchmark for Large Language Models                                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.07985) |
-| 2024-07 | PUTNAMBENCH: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.11214) |
-| 2024-02 | OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-level Bilingual Multimodal Scientific Problems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.14008) |
-
-
-##### Spectral Mathematics
-|  Date   | Title                                                                                                                  |                                                                 Paper                                                                  |
-| :-----: | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2025-05 | MathArena: Evaluating LLMs on Uncontaminated Math Competitions                                                         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23281) |
-| 2025-05 | FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.02735) |
-| 2025-01 | UGMATHBENCH: A DIVERSE AND DYNAMIC BENCHMARK FOR UNDERGRADUATE-LEVEL MATHEMATICAL REASONING WITH LARGE LANGUAGE MODELS | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.13766) |
-| 2024-06 | MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark                                    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01574) |
-| 2024-06 | LiveBench: A Difficult LLM Benchmark Consisting of Frequently-Updated Questions                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.19314) |
-| 2024-05 | MathBench: A Comprehensive Multi-level Benchmark for Evaluating Mathematical Capabilities                              | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.12209) |
-| 2023-11 | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022) |
-| 2023-10 | MATHVISTA: EVALUATING MATHEMATICAL REASONING OF FOUNDATION MODELS IN VISUAL CONTEXTS                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2310.02255) |
-
-
-
-### 3. Knowledge Enhanced & Context Reasoning
-
-#### Multi-hop Reasoning
-##### Multi-hop Answering
-|  Date   | Title                                                                                                         |                                                                  Paper                                                                   |
-| :-----: | :------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------: |
-| 2024-12 | MINTQA: A Multi-Hop Question Answering Benchmark for Evaluating LLMs on New and Tail Knowledge                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.17032v2) |
-| 2024-01 | MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries                               |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2401.15391)  |
-| 2023-11 | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                             |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022)  |
-| 2023-10 | FRESHLLMS:REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION                                    |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2310.03214)  |
-| 2022-10 | WIKIWHY: ANSWERING AND EXPLAINING CAUSE-AND-EFFECT QUESTIONS                                                  |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2210.12152)  |
-| 2022-05 | QAMPARI: An Open-domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2205.12665)  |
-| 2021-08 | MuSiQue: Multihop Question Answering Over Multiple Paragraphs                                                 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2108.00574)  |
-| 2021-04 | MULTIMODALQA: COMPLEX QUESTION ANSWERING OVER TEXT, TABLES AND IMAGES                                         |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.06039)  |
-| 2021-01 | StrategyQA: A Benchmark for Question Answering that Requires Implicit Reasoning Steps                         |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2101.02235)  |
-
-
-##### Multi-hop Retrieval
-
-
-
-
-|  Date   | Title                                                                                |                                                                 Paper                                                                  |
-| :-----: | :----------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2026-01 | TEMPO: A Realistic Multi-Domain Benchmark for Temporal Reasoning-Intensive Retrieval | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.09523) |
-| 2024-01 | MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.15391) |
-| 2023-11 | LongBench: A Comprehensive, Bilingual Benchmark for Long-Context Understanding       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.09552) |
-| 2023-11 | GAIA: a benchmark for General AI Assistants                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12983) |
-| 2023-09 | Ragas: Automated Evaluation of Retrieval Augmented Generation                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.15217) |
-| 2023-05 | Gorilla: Large Language Model Connected with Massive APIs                            | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.15334) |
-| 2022-03 | REASONING OVER PUBLIC AND PRIVATE DATA IN RETRIEVAL-BASED SYSTEMS(CONCURRENTQA)      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2203.11027) |
-
-#### Long-context Reasoning
-
-##### Long-horizon Tasks
-
-
-
-|  Date   | Title                                                                                             |                                                                        Paper                                                                        |
-| :-----: | :------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2025-10 | LC-Eval: A Bilingual Multi-Task Evaluation Benchmark for Long-Context Understanding               |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.16783)        |
-| 2025-05 | LongLeader: A Comprehensive Leaderboard for Large Language Models in Long-context Scenarios       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://aclanthology.org/2025.naacl-long.439/) |
-| 2025-05 | 100-LongBench: Are de facto Long-Context Benchmarks Literally Evaluating Long-Context Ability?    |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.19293v1)       |
-| 2025-02 | DocPuzzle: A Process-Aware Benchmark for Evaluating Realistic Long-Context Reasoning Capabilities |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.17807)        |
-| 2024-12 | LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks     |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.15204)        |
-| 2024-10 | LONGGENBENCH: Long-context Generation Benchmark                                                   |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.04199)        |
-| 2024-10 | HELMET: HOW TO EVALUATE LONG-CONTEXT LANGUAGE MODELS EFFECTIVELY AND THOROUGHLY                   |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.02694)        |
-| 2024-06 | BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack                    |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2406.10149)        |
-| 2024-04 | Ada-LEval: A Length-Adaptable Benchmark for Evaluating the Long-Context Understanding of LLMs     |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.06480)        |
-| 2024-04 | RULER: What’s the Real Context Size of Your Long-Context Language Models?                         |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.06654)        |
-| 2024-02 | ∞BENCH: Extending Long Context Evaluation Beyond 100K Tokens                                      |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2402.13718v3)       |
-| 2023-11 | FINANCEBENCH: A New Benchmark for Financial Question Answering                                    |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2311.11944)        |
-| 2023-11 | LongBench: A Comprehensive, Bilingual Benchmark for Long-Context Understanding                    |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.09552)        |
-| 2023-05 | VCSUM: A Versatile Chinese Meeting Summarization Dataset                                          |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.05280)        |
-| 2023-04 | LongForm: Effective Instruction Tuning with Reverse Instructions                                  |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2304.08460)        |
-| 2022-02 | MuLD: The Multitask Long Document Benchmark                                                       |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2202.07362)        |
-| 2022-01 | SCROLLS: Standardized CompaRison Over Long Language Sequences                                     |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2201.03533)        |
-
-
-
-##### Distraction
-
-| Date  | Title                                                                                               |                                                                 Paper                                                                  |
-| :---: | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2023-07  | L-EVAL: INSTITUTING STANDARDIZED EVALUATION FOR LONG CONTEXT LANGUAGE MODELS                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2307.11088) |
-| 2023-08  | LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding                     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.14508) |
-| 2024-03  | Long-form factuality in large language models(LongFact)                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2403.18802) |
-| 2024-04  | Ada-LEval: A Length-Adaptable Benchmark for Evaluating the Long-Context Understanding of LLMs       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.06480) |
-| 2024-04  | RULER: What’s the Real Context Size of Your Long-Context Language Models?                           | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.06654) |
-| 2024-06  | BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2406.10149) |
-| 2024-07  | NeedleBench: A Comprehensive Synthetic Framework for Evaluating Retrieval and Reasoning Performance | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.11963) |
-| 2024-07 | MMLongBench-Doc: Benchmarking Long-context Document Understanding with Visualizations                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge\&logo=arxiv\&logoColor=white)](https://arxiv.org/abs/2407.01523) |
-| 2024-02 | $\infty$Bench: Extending Long Context Evaluation Beyond 100K Tokens                                         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge\&logo=arxiv\&logoColor=white)](https://arxiv.org/abs/2402.13718)|
-| 2024-10  | HELMET: HOW TO EVALUATE LONG-CONTEXT LANGUAGE MODELS EFFECTIVELY AND THOROUGHLY                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.02694) |
-| 2025-05  | 100-LongBench: Are de facto Long-Context Benchmarks Literally Evaluating Long-Context Ability?            | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.19293v1) |
-
-
-##### Long-range State Reasoning
-| Date  | Title                                                                                               |                                                                 Paper                                                                  |
-| :---: | :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2023-06  | MIND2WEB: Towards a Generalist Agent for the Web     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2306.06070) |
-| 2023-12  | EgoPlan-Bench: Benchmarking Multimodal Large Language Models for Human-Level Planning      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2312.06722) |
-| 2024-11  | PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2411.00081) |
-| 2025-01  | R-HORIZON: How Far Can Your Large Reasoning Model Really Go in Breadth and Depth?       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.08189) |
-| 2025-09  | SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.16941) |
-| 2026-01  | SokoBench: Evaluating Long-Horizon Planning and Reasoning in Large Language Models          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.20856) |
-| 2026-01  | DEEPPLANNING: Benchmarking Long-Horizon Agentic Planning with Verifiable Constraints         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.18137) |
-| 2026-02  | TRIP-Bench: A Benchmark for Long-Horizon Interactive Agents in Real-World Scenarios        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2602.01675) |
-| 2026-02  | LLM-WikiRace Benchmark: How Far Can LLMs Plan over Real-World Knowledge Graphs?     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2602.16902) |
-| 2026-02  | EcoGym: Evaluating LLMs for Long-Horizon Plan-and-Execute in Interactive Economies   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2602.09514) |
-
-### 4. Agentic Reasoning
-
-####  Long-horizon Planning and Decision-making
-
-##### Web Navigation
-
-|  Date   | Title                                                                                     |                                                                 Paper                                                                  |
-| :-----: | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2025-06 | Mind2Web 2:Evaluating Agentic Search with Agent-as-a-Judge                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.21506) |
-| 2025-05 | InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.15872) |
-| 2025-04 | BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2504.12516) |
-| 2024-06 | WebCanvas: Benchmarking Web Agents in Online Environments                                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.12373) |
-| 2024-01 | WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models                 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.13919) |
-| 2023-11 | GAIA: a benchmark for General AI Assistants                                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12983) |
-| 2023-08 | AgentBench: A Comprehensive Benchmark to Evaluate LLMs as Agents                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.03688) |
-| 2023-07 | WebArena: A Realistic Self-Hosted Web Environment for Building Autonomous Agents          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.13854) |
-| 2023-06 | Mind2Web: Towards a Generalist Agent for the Web                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.06070) |
-
-##### Interactive Environment
-|  Date   | Title                                                                                                             |                                                                 Paper                                                                  |
-| :-----: | :---------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
-| 2025-10 | HOLISTIC AGENT LEADERBOARD: THE MISSING INFRASTRUCTURE FOR AI AGENT EVALUATION(HAL)                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.11977) |
-| 2025-05 | FieldWorkArena: Agentic AI Benchmark for Real Field Work Tasks                                                    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.19662) |
-| 2025-04 | PaperBench: Evaluating AI’s Ability to Replicate AI Research                                                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2504.01848) |
-| 2025-01 | MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.14654) |
-| 2024-07 | AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2407.18901) |
-| 2024-06 | τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.12045) |
-| 2024-05 | AgentClinic: a multimodal agent benchmark to evaluate AI in simulated clinical environments                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.07960) |
-| 2024-04 | OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.07972) |
-| 2024-02 | OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2402.17553) |
-| 2024-01 | EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2401.07128) |
-| 2023-10 | SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents                                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.11667) |
-| 2023-08 | AgentBench: A Comprehensive Benchmark to Evaluate LLMs as Agents                                                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.03688) |
-| 2023-05 | MULTIMODAL WEB NAVIGATION WITH INSTRUCTIONFINETUNED FOUNDATION MODELS(WebGUM)                                   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2305.11854) |
-| 2022-07 | WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2207.01206) |
-| 2022-03 | ScienceWorld: Is Your Agent Smarter than a Fifth Grader?                                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.07540) |
-
-####  Tool Calling and Code Reasoning
-
-##### Tool Calling
-
-
-|  Date   | Title                                                                                                          |                                                                      Paper                                                                       |
-| :-----: | :------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2026-02 | MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers                               |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2602.00933)    |
-| 2025-05 | The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/forum?id=2GmDdhBdDk) |
-| 2025-01 | ACEBench: Who Wins the Match Point in Tool Usage?                                                              |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.12851)      |
-| 2024-08 | TOOLSANDBOX: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities        |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2408.04682)      |
-| 2024-05 | Seal-Tools: Self-Instruct Tool Learning Dataset for Agent Tuning and Detailed Benchmark                        |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.08355)      |
-| 2024-03 | StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models             |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2403.07714)      |
-| 2023-07 | ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs                                   |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.16789)      |
-| 2023-06 | ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases                            |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2306.05301)      |
-| 2023-05 | Gorilla: Large Language Model Connected with Massive APIs                                                      |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.15334)      |
-| 2023-05 | APIBench (part of Gorilla project)                                                                             |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.15334)      |
-| 2023-04 | API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs                                                    |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.08244)      |
-| 2023-02 | Toolformer: Language Models Can Teach Themselves to Use Tools                                                  |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.04761)      |
-
-
-
-##### Executable Code
-
-| Date  | Title                                                                                |                                                                         Paper                                                                         |
-| :---: | :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2021-02  | CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation               |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2102.04664)         |
-| 2021-05  | CodeNet: A Large-Scale AI for Code Dataset for Learning a Diversity of Coding Tasks                  |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.12655)         |
-| 2021-07  | HumanEval: Evaluating Large Language Models Trained on Code                          |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2107.03374)         |
-| 2021-08  | Program Synthesis with Large Language Models(MBPP)                          |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2108.07732)         |
-| 2022-11  |DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation               |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2211.11501)         |
-| 2023-02  |CoderEval: A Benchmark of Pragmatic Code Generation with Generative Pre-trained Models              |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2302.00288)         |
-| 2023-06  | InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.14898)         |
-| 2023-06  | RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2306.03091)         |
-| 2023-10  | SWE-bench: Can Language Models Resolve Real-World GitHub Issues?                     |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.06770)         |
-| 2024-02  | API-BLEND: A Comprehensive Corpora for Training and Benchmarking API LLMs                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2402.15491)         |
-| 2024-03  | LiveCodeBench: Holistic and Contamination-Free Evaluation for Code                   |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.07974)         |
-| 2024-05  | DevEval: A Manually-Annotated Code Generation Benchmark Aligned with Real-World Code Repositories             |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.19856)         |
-| 2024-12  | EXECREPOBENCH: Multi-level Executable Code Completion Evaluation                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.11990)         |
-| 2024-12  | FullStack Bench: Evaluating LLMs as Full Stack Coders                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.00535)         |
-| 2025-05  | DSCodeBench: A Realistic Benchmark for Data Science Code Generation                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.15621)         |
-| 2025-06  | LiveCodeBench Pro: How Do Olympiad Medalists Judge LLMs in Competitive Programming?                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.11928)         |
-| 2025-06  | CodeContests+: High-Quality Test Case Generation for Competitive Programming                |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.05817)         |
-| 2026-01  | From Laboratory to Real-World Applications: Benchmarking Agentic Code Reasoning at the Repository Level(RepoReason)             |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/pdf/2601.03731)         |
-
-
-##### Multi-Agent Collaboration
-| Date  | Title                                                                                |                                                                         Paper                                                                         |
-| :---: | :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 2024-12  | TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.14161)         |
-| 2025-02  | REALM-Bench: A Benchmark for Evaluating Multi-Agent Systems on Real-world, Dynamic Planning and Scheduling Tasks      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.18836)         |
-| 2025-03  | MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents              |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2503.01935)         |
-| 2025-07  | CREW-Wildfire: Benchmarking Agentic Multi-Agent Collaborations at Scale    |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.05178)         |
-| 2025-07  | AGENTSNET: Coordination and Collaborative Reasoning in Multi-Agent LLMs     |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.08616)         |
-| 2025-10  | PaperArena: An Evaluation Benchmark for Tool-Augmented Agentic Reasoning on Scientific Literature      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.10909)         |
-| 2026-01  | M3MAD-Bench:Are Multi-Agent Debates Really Effective Across Domains and Modalities?     |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.02854)         |
-
-## Setting (How: Evaluation Scenarios of Reasoning Benchmarks)
-
-### 1. Reasoning & Verification Interface
-
-
-#### Question Format​
-##### Multiple-choice questions​
+### Protocal Formulation
+#### 1. Reasoning & Verification Interface
+
+##### Question Format​
+###### Multiple-choice questions​
 
 
 
@@ -993,7 +995,7 @@
 | 2021-01 | RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge                |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2101.00376)  |
 
 
-##### Free-response questions​
+###### Free-response questions​
 
 
 
@@ -1012,7 +1014,7 @@
 | 2021-03 | SVAMP: Simple Variations on Arithmetic Math Problems                                                        |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2103.07191)  |
 
 
-##### Structured-output tasks​
+###### Structured-output tasks​
 
 
 
@@ -1031,9 +1033,9 @@
 | 2021-09 | MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics                                        |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2109.00110)      |
 
 
-#### Interaction Modalities​
+##### Interaction Modalities​
 
-##### Single-turn static evaluation​
+###### Single-turn static evaluation​
 
 
 
@@ -1052,7 +1054,7 @@
 | 2023-11 | GPQA: A Graduate-Level Google-Proof Q&A Benchmark                                                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12022) |
 | 2023-11 | LongBench: A Comprehensive, Bilingual Benchmark for Long-Context Understanding                         | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.09552) |
 
-##### Multi-turn interaction
+###### Multi-turn interaction
 
 
 |  Date   | Title                                                                                                     |                                                                 Paper                                                                  |
@@ -1072,9 +1074,9 @@
 | 2023-04 | API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs                                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.08244) |
 | 2022-07 | WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents                        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2207.01206) |
 
-###  2.Knowledge Access Modalities​
-#### Closed-Book​
-##### Pure Closed-Book Reasoning​
+####  2.Knowledge Access Modalities​
+##### Closed-Book​
+###### Pure Closed-Book Reasoning​
 
 
 
@@ -1097,7 +1099,7 @@
 
 
 
-##### Given Context​
+###### Given Context​
 
 |  Date   | Title                                                                                                                                                    |                                                                  Paper                                                                   |
 | :-----: | :------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: |
@@ -1112,8 +1114,8 @@
 | 2023-11 | LongBench: A Comprehensive, Bilingual Benchmark for Long-Context Understanding                                                                           |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.09552)  |
 | 2023-07 | L-EVAL: INSTITUTING STANDARDIZED EVALUATION FOR LONG CONTEXT LANGUAGE MODELS                                                                             |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2307.11088)  |
 
-#### Open-Book
-##### RAG
+##### Open-Book
+###### RAG
 
 |  Date   | Title                                                                                              |                                                                 Paper                                                                  |
 | :-----: | :------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
@@ -1129,7 +1131,7 @@
 | 2023-11 | FINANCEBENCH: A New Benchmark for Financial Question Answering                                     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2311.11944) |
 | 2023-09 | Ragas: Automated Evaluation of Retrieval Augmented Generation                                      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.15217) |
 
-##### Live
+###### Live
 |  Date   | Title                                                                                                                            |                                                                  Paper                                                                   |
 | :-----: | :------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: |
 | 2026-01 | FINDEEPFORECAST : A Live Multi-Agent System for Benchmarking Deep Research Agents in Financial Forecasting(FINDEEPFORECASTBENCH) |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.05039)  |
@@ -1149,9 +1151,9 @@
 | 2024-03 | LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code                                      |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.07974)  |
 | 2024-03 | Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference                                                          |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.04132)  |
 
-###  3.Tool Environment​
-#### Tool Calling Specifications​
-##### Single Tool Selection and Parameterization​
+####  3.Tool Environment​
+##### Tool Calling Specifications​
+###### Single Tool Selection and Parameterization​
 |  Date   | Title                                                                                                          |                                                                      Paper                                                                       |
 | :-----: | :------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------: |
 | 2025-05 | The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/forum?id=2GmDdhBdDk) |
@@ -1168,7 +1170,7 @@
 | 2023-02 | Toolformer: Language Models Can Teach Themselves to Use Tools                                                  |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.04761)      |
 
 
-##### Multi-tool Orchestration​
+###### Multi-tool Orchestration​
 
 |  Date   | Title                                                                                       |                                                                 Paper                                                                  |
 | :-----: | :------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------: |
@@ -1185,8 +1187,8 @@
 | 2022-10 | ReAct: Synergizing Reasoning and Acting in Language Models                                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.03629) |
 
 
-#### Simulation Environment​
-##### Code Execution
+##### Simulation Environment​
+###### Code Execution
 
 |  Date   | Title                                                                                                                 |                                                                 Paper                                                                  |
 | :-----: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
@@ -1202,7 +1204,7 @@
 | 2023-06 | InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback                                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.14898) |
 | 2021-07 | Evaluating Large Language Models Trained on Code (HumanEval)                                                          | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2107.03374) |
 
-##### GUI
+###### GUI
 
 |  Date   | Title                                                                                          |                                                                 Paper                                                                  |
 | :-----: | :--------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------: |
@@ -1217,9 +1219,9 @@
 | 2022-07 | WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2207.01206) |
 
 
-### 4.Budget and Anti-Gaming​
-#### Budget Constraints​
-##### Step Limits​
+#### 4.Budget and Anti-Gaming​
+##### Budget Constraints​
+###### Step Limits​
 
 |  Date   | Title                                                                                   |                                                                        Paper                                                                         |
 | :-----: | :-------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -1230,15 +1232,15 @@
 |  2023   | HELM:A holistic framework for evaluating foundation models                              | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://crfm.stanford.edu/helm/classic/latest/) |
 
 
-##### Tool-Calling Budgets​
+###### Tool-Calling Budgets​
 |  Date   | Title                                                                                                                 |                                                                      Paper                                                                       |
 | :-----: | :-------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------: |
 | 2025-11 | Budget-Aware Tool-Use Enables Effective Agent Scaling                                                                 |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2511.17006)      |
 | 2025-11 | CostBench: Evaluating Multi-Turn Cost-Optimal Planning and Adaptation in Dynamic Environments for LLM Tool-Use Agents |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2511.02734)      |
 | 2025-05 | The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/forum?id=2GmDdhBdDk) |
 
-#### Anti-Gaming​
-##### Perturbation Robustness​
+##### Anti-Gaming​
+###### Perturbation Robustness​
 
 
 |  Date   | Title                                                                                                            |                                                                  Paper                                                                   |
@@ -1257,7 +1259,7 @@
 | 2021-01 | Robustness Gym: Unifying the NLP Evaluation Landscape                                                            |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2101.04840)  |
 
 
-##### Anti-Contamination & Freshness
+###### Anti-Contamination & Freshness
 
 
 |  Date   | Title                                                                                                |                                                                   Paper                                                                    |
