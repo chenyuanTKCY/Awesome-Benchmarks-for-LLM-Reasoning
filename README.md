@@ -406,9 +406,9 @@
 
 ## Setting (How: Construction of Reasoning Benchmarks)
 
-### Data Source
+### Data Provenance
 
-#### 1. Real-World Collection
+#### Naturalistic Data
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -736,7 +736,8 @@
 | 2020-06 | AdvGLUE: A Multi-Task Benchmark for Adversarial Robustness in Natural Language Understanding | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2006.12983) |
 | 2020-02 | ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2002.04326) |
 
-#### 2. Expert-Curated
+#### Constructed Data
+##### Expert-Curated
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -837,7 +838,7 @@
 | 2021-03 | Are NLP Models really able to Solve Simple Math Word Problems? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2103.07191) |
 | 2021-01 | Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2101.02235) |
 
-#### 3. LLM-Generated
+##### LLM-Generated
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -871,7 +872,23 @@
 | 2020-09 | Measuring Massive Multitask Language Understanding | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2009.03300) |
 | 2020-06 | Extracting Training Data from Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2006.07691) |
 
-#### 4. Dynamic Environment Interaction
+##### Human-AI Collaboration
+
+|  Date   | Title | Paper |
+| :-----: | :---- | :---: |
+| 2025-08 | A Functionality-Grounded Benchmark for Evaluating Web Agents in E-commerce Domains | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15832) |
+| 2025-05 | Efficient Agent Training for Computer Use | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.13909) |
+| 2025-03 | MMLU-ProX: A Multilingual Benchmark for Advanced Large Language Model Evaluation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.10497) |
+| 2025-03 | HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.07833) |
+| 2025-02 | SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.14739) |
+| 2025-02 | DocPuzzle: A Process-Aware Benchmark for Evaluating Realistic Long-Context Reasoning Capabilities | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.17807) |
+| 2023-10 | Attack Prompt Generation for Red Teaming and Defending Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.12505) |
+| 2023-05 | HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.11747) |
+| 2023-04 | AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.06364) |
+| 2021-04 | MultiModalQA: Complex Question Answering over Text, Tables and Images | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.06039) |
+| 2021-04 | Dynabench: Rethinking Benchmarking in NLP | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2104.14337) |
+
+#### Interaction-Derived Data
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -900,7 +917,7 @@
 | 2022-03 | ScienceWorld: Is your Agent Smarter than a 5th Grader? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2203.07540) |
 | 2021-01 | Robustness Gym: Unifying the NLP Evaluation Landscape | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2101.04840) |
 
-#### 5. Rule-Based Symbolic Synthesis
+<!-- #### 5. Rule-Based Symbolic Synthesis
 
 |  Date   | Title | Paper |
 | :-----: | :---- | :---: |
@@ -926,23 +943,9 @@
 | 2023-11 | MVBench: A Comprehensive Multi-modal Video Understanding Benchmark | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.17005) |
 | 2023-06 | PromptRobust: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.04528) |
 | 2022-10 | Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2210.01240) |
-| 2020-05 | CheckList: Beyond Accuracy: Behavioral Testing of NLP Models with CheckList | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2005.04118) |
+| 2020-05 | CheckList: Beyond Accuracy: Behavioral Testing of NLP Models with CheckList | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2005.04118) | -->
 
-#### 6. Human-AI Collaboration
 
-|  Date   | Title | Paper |
-| :-----: | :---- | :---: |
-| 2025-08 | A Functionality-Grounded Benchmark for Evaluating Web Agents in E-commerce Domains | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15832) |
-| 2025-05 | Efficient Agent Training for Computer Use | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.13909) |
-| 2025-03 | MMLU-ProX: A Multilingual Benchmark for Advanced Large Language Model Evaluation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.10497) |
-| 2025-03 | HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.07833) |
-| 2025-02 | SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.14739) |
-| 2025-02 | DocPuzzle: A Process-Aware Benchmark for Evaluating Realistic Long-Context Reasoning Capabilities | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.17807) |
-| 2023-10 | Attack Prompt Generation for Red Teaming and Defending Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.12505) |
-| 2023-05 | HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.11747) |
-| 2023-04 | AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.06364) |
-| 2021-04 | MultiModalQA: Complex Question Answering over Text, Tables and Images | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.06039) |
-| 2021-04 | Dynabench: Rethinking Benchmarking in NLP | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2104.14337) |
 
 ### Protocal Formulation
 #### 1. Reasoning & Verification Interface
