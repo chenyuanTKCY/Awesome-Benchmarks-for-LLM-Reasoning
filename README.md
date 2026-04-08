@@ -151,10 +151,8 @@
 | 2022-11 | PAL: Program-aided Language Models(GSM-HARD)                                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2211.10435) | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/reasoning-machines/gsm-hard) |
 | 2021-10 | Grade School Math 8K(GSM8K​)                                                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2110.14168) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/openai/gsm8k) |
 | 2021-03  | Are NLP Models really able to Solve Simple Math Word Problems?      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.07191) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arkilpatel/SVAMP) |
-| 2021-03 | AMPS: Measuring Mathematical Problem Solving With the
-MATH Dataset            | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.03874) | |
-
-
+| 2021-03  | AMPS: Measuring Mathematical Problem Solving With the
+MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.038741) |  |
 
 ##### Adversarially Robust Mathematics  
 
@@ -197,7 +195,8 @@ MATH Dataset            | [![Paper](https://img.shields.io/badge/paper-A42C25?st
 
 
 ##### Probability, statistics, and uncertainty
-
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+| :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2021-03  | Measuring Mathematical Problem Solving With the MATH Dataset     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.03874) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/EleutherAI/hendrycks_math) |
 | 2025-01  | UGMATHBENCH: A DIVERSE AND DYNAMIC BENCHMARK FOR UNDERGRADUATE-LEVEL MATHEMATICAL REASONING WITH LARGE LANGUAGE MODELS     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.13766) | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/UGMathBench/ugmathbench) |
 | 2025-10  | SKYLENAGE Technical Report: Mathematical Reasoning and Contest-Innovation Benchmarks for Multi-Level Math Evaluation   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01241) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/alibabagroup/SKYLENAGE-ReasoningMath) |
@@ -224,6 +223,9 @@ MATH Dataset            | [![Paper](https://img.shields.io/badge/paper-A42C25?st
 | 2024-02 | OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-level Bilingual Multimodal Scientific Problems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.14008) | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/Hothan/OlympiadBench) |
 
 ##### Spectral Mathematics
+
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+| :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2025-05  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.23281) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/MathArena) |
 | 2025-05  | FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.02735) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/SphereLab/FormalMATH-All) |
 | 2025-01  | UGMATHBENCH: A DIVERSE AND DYNAMIC BENCHMARK FOR UNDERGRADUATE-LEVEL MATHEMATICAL REASONING WITH LARGE LANGUAGE MODELS     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.13766) | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/UGMathBench/ugmathbench) |
