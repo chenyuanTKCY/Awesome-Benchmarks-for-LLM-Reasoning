@@ -7,9 +7,7 @@
 ##### Rule-Based Chain Reasoning
 
 
- [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/cogint/LogicBench-v1.0) |
-
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2025-11 | EngChain: A Symbolic Benchmark for Verifiable Multi-Step Reasoning in Engineering                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.01650v1) |  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/usmansafdarktk/EngTrace) |
 | 2024-06 | Multi-LogiEval: Towards Evaluating Multi-Step Logical Reasoning Ability of Large Language Models                 |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.17169)  |  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mihir3009/Multi-LogiEval) |
@@ -27,7 +25,7 @@
 ##### Constraint Satisfaction and Interactive Games
 
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2026-01 | ChaosBench-Logic: A Benchmark for Logical and Symbolic Reasoning on Chaotic Dynamical Systems               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.01982) |   [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/11NOel11/ChaosBench-Logic) |
 | 2025-05 | SATBench: Benchmarking LLMs' Logical Reasoning via Automated Puzzle Generation from SAT Formulas            | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.14615) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/LLM4Code/SATBench) |
@@ -48,7 +46,7 @@
 ##### Formalization of Natural Language
 
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2026-01 | ChaosBench-Logic: A Benchmark for Logical and Symbolic Reasoning on Chaotic Dynamical Systems               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.01982) |   [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/11NOel11/ChaosBench-Logic) |
 | 2025-09 | INABHYD:Language Models Do Not Follow Occam’s Razor:A Benchmark for Inductive and Abductive Reasoning  |      [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2509.03345v1)       | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/byrantwithyou/inabhyd/) |
@@ -65,7 +63,7 @@
 
 
 ##### Proof Generation
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2021-04 | NATURALPROOFS: Mathematical Theorem Proving in Natural Language                                                  |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2104.01112)  |  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wellecks/naturalproofs) |
 | 2021-05  |Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning(Geometry3K )              |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.04165)      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://lupantech.github.io/inter-gps/) |
@@ -84,7 +82,7 @@
 
 
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2021-09 | MINIF2F: A CROSS-SYSTEM BENCHMARK FOR FORMAL OLYMPIAD-LEVEL MATHEMATICS                                 |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2109.00110)        | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/openai/miniF2F/tree/v1) |
 | 2024-07  | PUTNAMBENCH: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2407.11214) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TrishulLab/PutnamBench) |
@@ -106,7 +104,7 @@
 ##### Combinatorial generalization and systematic generalization
 
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2021-09  | Systematic Generalization on gSCAN:What is Nearly Solved and What is Next?   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2109.12243) |  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/google-research/language/tree/master/language/gscan) |
 | 2021-11  | Grounded Graph Decoding Improves Compositional Generalization in Question Answering    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2111.03642) |  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gaiyu0/cfq) |
@@ -123,7 +121,7 @@
 
 
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2021-05  | Measuring Coding Challenge Competence With APPS   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.09938) |  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hendrycks/apps) |
 | 2024-10  | Tackling the Abstraction and Reasoning Corpus with Vision Transformers: the Importance of 2D Representation, Positions, and Objects  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.06405) |  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/khalil-research/ViTARC) |
@@ -138,7 +136,7 @@
 ##### General Basic Mathematics 
 
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2024-10 | GSM-SYMBOLIC: UNDERSTANDING THE LIMITATIONS OF MATHEMATICAL REASONING IN LARGE LANGUAGE MODELS     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2410.05229) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/apple/ml-gsm-symbolic) |
 | 2024-06 | MMLU-Pro: A More Challenging and Discriminative Massive Multitask Language Understanding Benchmark | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01574) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro) |
@@ -147,12 +145,11 @@
 | 2022-11 | PAL: Program-aided Language Models(GSM-HARD)                                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2211.10435) | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/reasoning-machines/gsm-hard) |
 | 2021-10 | Grade School Math 8K(GSM8K​)                                                                       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2110.14168) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/openai/gsm8k) |
 | 2021-03  | Are NLP Models really able to Solve Simple Math Word Problems?      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.07191) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arkilpatel/SVAMP) |
-| 2021-03  | AMPS: Measuring Mathematical Problem Solving With the
-MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.038741) |  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hendrycks/math) |
+| 2021-03  | AMPS: Measuring Mathematical Problem Solving With the MATH Dataset  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.038741) |  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hendrycks/math) |
 
 
 ##### Adversarially Robust Mathematics  
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2024-02  | GSM-Plus: A Comprehensive Benchmark for Evaluating the Robustness of LLMs as Mathematical Problem Solvers             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.19255) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/qintongli/GSM-Plus) |
 | 2024-05 | A Careful Examination of Large Language Model Performance on Grade School Arithmetic(GSM1k)        | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2405.00332) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/ScaleAI/gsm1k) |
@@ -166,7 +163,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 
 ##### Arithmetic and algebra
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2021-03  | Are NLP Models really able to Solve Simple Math Word Problems?      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.07191) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arkilpatel/SVAMP) |
 | 2021-06  | A Diverse Corpus for Evaluating and Developing English Math Word Problem Solvers     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2106.15772) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)]( https://github.com/chaochun/nlu-asdiv-dataset) |
@@ -175,7 +172,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 
 ##### Geometry and discrete
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2021-05  |Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning(Geometry3K )              |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.04165)      | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://lupantech.github.io/inter-gps/) |
 | 2021-05  | GeoQA: A Geometric Question Answering Benchmark Towards Multimodal Numerical Reasoning      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.14517) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chen-judge/GeoQA) |
@@ -189,7 +186,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 
 
 ##### Probability, statistics, and uncertainty
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2021-03  | Measuring Mathematical Problem Solving With the MATH Dataset     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2103.03874) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/EleutherAI/hendrycks_math) |
 | 2025-01  | UGMATHBENCH: A DIVERSE AND DYNAMIC BENCHMARK FOR UNDERGRADUATE-LEVEL MATHEMATICAL REASONING WITH LARGE LANGUAGE MODELS     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2501.13766) | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/UGMathBench/ugmathbench) |
@@ -204,7 +201,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 
 
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2025-11 | Towards Robust Mathematical Reasoning             | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.01846) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/google-deepmind/superhuman/tree/main/imobench) |
 | 2025-10  | SKYLENAGE Technical Report: Mathematical Reasoning and Contest-Innovation Benchmarks for Multi-Level Math Evaluation   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01241) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/alibabagroup/SKYLENAGE-ReasoningMath) |
@@ -217,7 +214,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 | 2024-02 | OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-level Bilingual Multimodal Scientific Problems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.14008) | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/Hothan/OlympiadBench) |
 
 ##### Spectral Mathematics
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2025-05  | MathArena: Evaluating LLMs on Uncontaminated Math Competitions   | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.23281) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/MathArena) |
 | 2025-05  | FormalMATH: Benchmarking Formal Mathematical Reasoning of Large Language Models    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.02735) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/SphereLab/FormalMATH-All) |
@@ -236,7 +233,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 #### Multi-hop Reasoning
 ##### Multi-hop Answering
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2024-12 | MINTQA: A Multi-Hop Question Answering Benchmark for Evaluating LLMs on New and Tail Knowledge                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.17032v2) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/probe2/multi-hop/) |
 | 2024-01 | MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries                               |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2401.15391)  |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/yixuantt/MultiHopRAG) |
@@ -252,7 +249,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 ##### Multi-hop Retrieval
 
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2026-01 | TEMPO: A Realistic Multi-Domain Benchmark for Temporal Reasoning-Intensive Retrieval | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.09523) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tempo-bench/Tempo) |
 | 2024-01 | MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries                               |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2401.15391)  |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/yixuantt/MultiHopRAG) |
@@ -267,7 +264,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 ##### Long-horizon Tasks
 
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2025-10 | LC-Eval: A Bilingual Multi-Task Evaluation Benchmark for Long-Context Understanding               |       [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.16783)        |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/humain-ai/LC-Eval) |
 | 2025-05 | LongLeader: A Comprehensive Leaderboard for Large Language Models in Long-context Scenarios       | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://aclanthology.org/2025.naacl-long.439/) | |
@@ -291,7 +288,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 
 ##### Distraction
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2023-07  | L-EVAL: INSTITUTING STANDARDIZED EVALUATION FOR LONG CONTEXT LANGUAGE MODELS                  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2307.11088) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OpenLMLab/LEval) |
 | 2023-08 | LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.14508) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/zai-org/LongBench) |
@@ -309,7 +306,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 
 ##### Long-range State Reasoning
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2023-06  | MIND2WEB: Towards a Generalist Agent for the Web     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2306.06070) | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/osunlp/Mind2Web) |
 | 2023-12  | EgoPlan-Bench: Benchmarking Multimodal Large Language Models for Human-Level Planning      | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2312.06722) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChenYi99/EgoPlan) |
@@ -328,7 +325,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 
 ##### Web Navigation
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2025-06 | Mind2Web 2:Evaluating Agentic Search with Agent-as-a-Judge                                | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2506.21506) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/osunlp/Mind2Web-2) |
 | 2025-05 | InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.15872) |  [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/yoga334/InfoDeekSeek) |
@@ -342,7 +339,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 
 ##### Interactive Environment
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2025-10 | HOLISTIC AGENT LEADERBOARD: THE MISSING INFRASTRUCTURE FOR AI AGENT EVALUATION(HAL)                               | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.11977) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/princeton-pli/hal-harness) |
 | 2025-05 | FieldWorkArena: Agentic AI Benchmark for Real Field Work Tasks                                                    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.19662) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FujitsuResearch/FieldWorkArena) |
@@ -365,7 +362,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 
 ##### Tool Calling
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2026-02 | MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers                               |    [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.arxiv.org/abs/2602.00933)    | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/ScaleAI/MCP-Atlas) |
 | 2025-05 | The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/forum?id=2GmDdhBdDk) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://gorilla.cs.berkeley.edu/leaderboard.html) |
@@ -383,7 +380,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 
 ##### Executable Code
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2021-02  | CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation               |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2102.04664)         | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/microsoft/CodeXGLUE) |
 | 2021-05  | CodeNet: A Large-Scale AI for Code Dataset for Learning a Diversity of Coding Tasks                  |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2105.12655)         | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-yellow)](https://huggingface.co/datasets/systemk/codenet) |
@@ -408,7 +405,7 @@ MATH Dataset    | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-
 ##### Multi-Agent Collaboration
 
 
-|  Date   | Title                                                                                                            |                                                                  Paper                                                                   | HuggingFace |
+|  Date   | Title                                                                                                            |                                                                  Paper                                                                   |dataset|
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2024-12  | TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.14161)         | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheAgentCompany/TheAgentCompany) |
 | 2025-02  | REALM-Bench: A Benchmark for Evaluating Multi-Agent Systems on Real-world, Dynamic Planning and Scheduling Tasks      |        [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2502.18836)         | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/genglongling/REALM-Bench) |
