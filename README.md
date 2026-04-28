@@ -1,4 +1,61 @@
-## Object (What): Reasoning Capabilities of Reasoning Benchmarks
+<div align="center">
+
+# Rethinking Benchmark Comparability
+### A Survey of Reasoning Benchmarks for Large Language Models
+
+<p>
+  <a href="./scis_paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-A42C25?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper PDF"></a>
+  <img src="https://img.shields.io/badge/Article-Survey-1F6FEB?style=for-the-badge" alt="Survey">
+  <img src="https://img.shields.io/badge/Venue-SCIENCE%20CHINA%20Information%20Sciences-0F766E?style=for-the-badge" alt="Venue">
+  <img src="https://img.shields.io/badge/Language-English-2563EB?style=for-the-badge" alt="English">
+  <img src="https://img.shields.io/badge/Framework-Object%20%7C%20Setting%20%7C%20Evaluation-6B7280?style=for-the-badge" alt="Framework">
+</p>
+
+**A paper-oriented companion repository for reasoning benchmark selection, comparison, construction, and reporting.**
+
+</div>
+
+This repository accompanies the survey paper *Rethinking Benchmark Comparability: A Survey of Reasoning Benchmarks for Large Language Models*. Instead of treating benchmark scores as directly comparable by default, the repository organizes reasoning benchmarks through three complementary dimensions:
+
+- **Object**: what reasoning capability a benchmark is designed to measure.
+- **Setting**: what data provenance, scenario assumptions, and construction choices shape model behavior.
+- **Evaluation**: what unit, dimension, and protocol define success.
+
+## Compass
+
+<p>
+  <a href="./scis_paper.pdf"><img src="https://img.shields.io/badge/Paper-Read%20the%20PDF-A42C25?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper"></a>
+  <a href="#object-what-reasoning-capabilities-of-reasoning-benchmarks"><img src="https://img.shields.io/badge/Object-Reasoning%20Capabilities-7C3AED?style=for-the-badge&logo=databricks&logoColor=white" alt="Object"></a>
+  <a href="#setting-how-construction-of-reasoning-benchmarks"><img src="https://img.shields.io/badge/Setting-Benchmark%20Construction-0F766E?style=for-the-badge&logo=knowledgebase&logoColor=white" alt="Setting"></a>
+  <a href="#evaluation-how-well-assessment-of-reasoning-benchmarks"><img src="https://img.shields.io/badge/Evaluation-Assessment%20Protocols-2563EB?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Evaluation"></a>
+</p>
+
+| Section | What It Helps You Do |
+| :-- | :-- |
+| [Paper PDF](./scis_paper.pdf) | Read the survey manuscript that this repository is built to support. |
+| [Object](#object-what-reasoning-capabilities-of-reasoning-benchmarks) | Find benchmarks by the reasoning ability they target. |
+| [Setting](#setting-how-construction-of-reasoning-benchmarks) | Inspect benchmark construction choices and hidden evaluation assumptions. |
+| [Evaluation](#evaluation-how-well-assessment-of-reasoning-benchmarks) | Compare how different works define correctness, robustness, faithfulness, and efficiency. |
+
+## Positioning
+
+- It serves as the companion resource for the survey paper rather than a generic benchmark dump.
+- It emphasizes benchmark comparability, not score accumulation alone.
+- It links each entry to the original **Paper** and the most relevant official **resource** page whenever available.
+
+## Navigation
+
+1. Start from **Object** if your question is *what kind of reasoning is being tested*.  
+2. Start from **Setting** if your question is *how the benchmark was built and what assumptions it encodes*.  
+3. Start from **Evaluation** if your question is *how success is measured and whether reported results are comparable*.  
+
+## Citation
+
+If this repository helps your research, please cite the accompanying survey paper. This README is maintained as a paper-facing reference page for the benchmark taxonomy developed in the manuscript.
+
+---
+
+## <img src="https://img.shields.io/badge/Object-8B5CF6?style=flat-square&logo=databricks&logoColor=white" alt="Object"> Object (What): Reasoning Capabilities of Reasoning Benchmarks
 
 ### Symbolic Reasoning
 
@@ -403,7 +460,7 @@
 
 
 
-## Setting (How): Construction of Reasoning Benchmarks
+## <img src="https://img.shields.io/badge/Setting-0F766E?style=flat-square&logo=knowledgebase&logoColor=white" alt="Setting"> Setting (How): Construction of Reasoning Benchmarks
 
 ### Data Provenance
 
@@ -1130,7 +1187,7 @@
 | 2023-12 | PromptBench: A Unified Library for Evaluation of Large Language Models                               |   [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.07910)   | -->
 
 
-## Evaluation (How Well): Assessment of Reasoning Benchmarks
+## <img src="https://img.shields.io/badge/Evaluation-2563EB?style=flat-square&logo=googleanalytics&logoColor=white" alt="Evaluation"> Evaluation (How Well): Assessment of Reasoning Benchmarks
 
 ### Evaluation Unit
 #### Answer Level
