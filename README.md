@@ -11,48 +11,109 @@
   <img src="https://img.shields.io/badge/Framework-Object%20%7C%20Setting%20%7C%20Evaluation-6B7280?style=for-the-badge" alt="Framework">
 </p>
 
-**A paper-oriented companion repository for reasoning benchmark selection, comparison, construction, and reporting.**
+**A companion repository for reasoning benchmark selection, comparison, construction, and reporting.**
+
+[Paper](./scis_paper.pdf) |
+[Introduction](#introduction) |
+[Framework](#framework) |
+[Content](#content) |
+[Benchmark List](#object-what-reasoning-capabilities-of-reasoning-benchmarks)
+
+<img src="./figures/fig01_intro_overview.png" alt="Overview of benchmark incomparability" width="92%">
 
 </div>
 
-This repository accompanies the survey paper *Rethinking Benchmark Comparability: A Survey of Reasoning Benchmarks for Large Language Models*. Instead of treating benchmark scores as directly comparable by default, the repository organizes reasoning benchmarks through three complementary dimensions:
+# News
 
-- **Object**: what reasoning capability a benchmark is designed to measure.
-- **Setting**: what data provenance, scenario assumptions, and construction choices shape model behavior.
-- **Evaluation**: what unit, dimension, and protocol define success.
+- 2026.05: README layout refreshed with paper figures and a clearer repository guide.
+- 2026.05: Companion PDF and benchmark index are available in this repository.
 
-## Compass
+# Introduction
 
-<p>
-  <a href="./scis_paper.pdf"><img src="https://img.shields.io/badge/Paper-Read%20the%20PDF-A42C25?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper"></a>
-  <a href="#object-what-reasoning-capabilities-of-reasoning-benchmarks"><img src="https://img.shields.io/badge/Object-Reasoning%20Capabilities-7C3AED?style=for-the-badge&logo=databricks&logoColor=white" alt="Object"></a>
-  <a href="#setting-how-construction-of-reasoning-benchmarks"><img src="https://img.shields.io/badge/Setting-Benchmark%20Construction-0F766E?style=for-the-badge&logo=knowledgebase&logoColor=white" alt="Setting"></a>
-  <a href="#evaluation-how-well-assessment-of-reasoning-benchmarks"><img src="https://img.shields.io/badge/Evaluation-Assessment%20Protocols-2563EB?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Evaluation"></a>
+This repository accompanies the survey paper *Rethinking Benchmark Comparability: A Survey of Reasoning Benchmarks for Large Language Models*. As reasoning becomes a defining capability of large language models, reasoning benchmarks have moved to the center of evaluation. Yet benchmark results are often not directly comparable: benchmarks may differ in the capabilities they target, the conditions under which models are evaluated, and the criteria used to assess success.
+
+Rather than treating benchmark scores as directly comparable by default, this repository organizes reasoning benchmarks through three complementary dimensions: **Object**, **Setting**, and **Evaluation**.
+
+<p align="center">
+  <img src="./figures/fig02_benchmark_trends.png" alt="Trends in reasoning benchmarks from 2020 to 2025" width="78%">
 </p>
 
-| Section | What It Helps You Do |
-| :-- | :-- |
-| [Paper PDF](./scis_paper.pdf) | Read the survey manuscript that this repository is built to support. |
-| [Object](#object-what-reasoning-capabilities-of-reasoning-benchmarks) | Find benchmarks by the reasoning ability they target. |
-| [Setting](#setting-how-construction-of-reasoning-benchmarks) | Inspect benchmark construction choices and hidden evaluation assumptions. |
-| [Evaluation](#evaluation-how-well-assessment-of-reasoning-benchmarks) | Compare how different works define correctness, robustness, faithfulness, and efficiency. |
+Reasoning benchmarks have expanded rapidly after 2023, with a visible shift from short, static QA-style tasks toward broader, longer-horizon, and more application-oriented benchmark designs. This growth increases coverage, but it also makes score comparison harder unless benchmark objects, settings, and evaluation criteria are made explicit.
 
-## Positioning
+The survey frames benchmark comparability as a scientific problem in how reasoning benchmarks are produced, interpreted, and used:
+
+1. **Object** asks what reasoning capability a benchmark is designed to measure.
+2. **Setting** asks what data provenance, protocol formulation, scenario assumptions, and construction choices shape model behavior.
+3. **Evaluation** asks what observation unit, assessment dimension, and scoring protocol define success.
+
+# Framework
+
+<p align="center">
+  <img src="./figures/fig03_object_overview.png" alt="High-level taxonomy of benchmark objects" width="76%">
+</p>
+
+The benchmark framework is organized around three linked dimensions.
+
+**Object.** Reasoning benchmark objects are grouped into symbolic, mathematical, knowledge, and agentic reasoning.
+
+<p align="center">
+  <img src="./figures/fig05_data_provenance.png" alt="Benchmark data provenance" width="45%">
+  <img src="./figures/fig06_protocol_formulation.png" alt="Benchmark protocol formulation" width="45%">
+</p>
+
+**Setting.** Benchmark construction is described through data provenance and protocol formulation, including task interface, knowledge access, tooling and environment, and constraints and controls.
+
+<p align="center">
+  <img src="./figures/fig07_evaluation_units.png" alt="Evaluation units" width="45%">
+  <img src="./figures/fig08_evaluation_dimensions.png" alt="Evaluation dimensions" width="45%">
+</p>
+
+**Evaluation.** Assessment is organized by evaluation units and evaluation dimensions, moving beyond final-answer accuracy toward process-level and trajectory-level evidence.
+
+# Content
+
+The repository is organized as a paper-facing guide plus a benchmark index.
+
+| Part | Entry |
+| :-- | :-- |
+| Paper | [Read the PDF](./scis_paper.pdf) |
+| Object | [Reasoning Capabilities](#object-what-reasoning-capabilities-of-reasoning-benchmarks) |
+| Setting | [Benchmark Construction](#setting-how-construction-of-reasoning-benchmarks) |
+| Evaluation | [Assessment Protocols](#evaluation-how-well-assessment-of-reasoning-benchmarks) |
+| Scenarios | [Scenario-Based Extensions](#scenario-based-extensions-of-reasoning-benchmarks-analysis) |
+
+<p align="center">
+  <img src="./figures/fig09_scenario_evolution.png" alt="Scenario-based extensions of reasoning benchmarks" width="92%">
+</p>
+
+The survey extends the Object-Setting-Evaluation framework to recurring deployment-oriented contexts: multilingual and cultural benchmarks, multimodal benchmarks, vertical-domain benchmarks, and agentic and interactive benchmarks. These scenarios do not replace the core framework; they help interpret how benchmark assumptions change when language coverage, modality, domain, or interaction environment becomes central.
+
+<p align="center">
+  <img src="./figures/fig10_practical_guidelines.png" alt="Practical guideline flow for benchmark selection and construction" width="92%">
+</p>
+
+The practical guideline section connects benchmark usage and benchmark construction. For benchmark selection, the key question is whether a benchmark provides decision-relevant evidence for the intended model claim. For benchmark construction, the key question is whether the object, setting, evaluation protocol, and fairness assumptions are explicit enough to make results interpretable and reproducible.
+
+<p align="center">
+  <img src="./figures/fig11_future_directions.png" alt="Future directions for reasoning benchmarks" width="86%">
+</p>
+
+# Repository Notes
 
 - It serves as the companion resource for the survey paper rather than a generic benchmark dump.
 - It emphasizes benchmark comparability, not score accumulation alone.
 - It links each entry to the original **Paper** and the most relevant official **resource** page whenever available.
+- It keeps the paper list organized as an index, while the figures above summarize the manuscript's framework and practical message.
 
-## Navigation
+# Navigation
 
 1. Start from **Object** if your question is *what kind of reasoning is being tested*.  
 2. Start from **Setting** if your question is *how the benchmark was built and what assumptions it encodes*.  
 3. Start from **Evaluation** if your question is *how success is measured and whether reported results are comparable*.  
 
-## Citation
+# Citation
 
-If this repository helps your research, please cite the accompanying survey paper. This README is maintained as a paper-facing reference page for the benchmark taxonomy developed in the manuscript.
-
+Zhang,  C., Liu,  S., Li,  H., Gao,  T., Wang,  Y., Chen,  Q., Feng,  X., Cai,  L., Du,  M., Tian,  Z., Qin,  L., Yu,  P. S., & Zhang,  M. (2026). Rethinking Benchmark Comparability: A Survey of Reasoning Benchmarks for Large Language Models. Preprints. https://doi.org/10.20944/preprints202605.0806.v1
 ---
 
 ## <img src="https://img.shields.io/badge/Object-8B5CF6?style=flat-square&logo=databricks&logoColor=white" alt="Object"> Object (What): Reasoning Capabilities of Reasoning Benchmarks
