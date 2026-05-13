@@ -6,7 +6,7 @@
 <p>
   <a href="./scis_paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-A42C25?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper PDF"></a>
   <img src="https://img.shields.io/badge/Article-Survey-1F6FEB?style=for-the-badge" alt="Survey">
-  <img src="https://img.shields.io/badge/Venue-SCIENCE%20CHINA%20Information%20Sciences-0F766E?style=for-the-badge" alt="Venue">
+  <img src="https://img.shields.io/badge/Venue-Preprint-0F766E?style=for-the-badge" alt="Venue">
   <img src="https://img.shields.io/badge/Language-English-2563EB?style=for-the-badge" alt="English">
   <img src="https://img.shields.io/badge/Framework-Object%20%7C%20Setting%20%7C%20Evaluation-6B7280?style=for-the-badge" alt="Framework">
 </p>
