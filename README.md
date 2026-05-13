@@ -13,7 +13,7 @@
 
 **A companion repository for reasoning benchmark selection, comparison, construction, and reporting.**
 
-[📄 Paper](./scis_paper.pdf) |
+[📄 Paper](https://www.preprints.org/manuscript/202605.0806) |
 [✨ Introduction](#introduction) |
 [🧩 Framework](#framework) |
 [📚 Content](#content) |
