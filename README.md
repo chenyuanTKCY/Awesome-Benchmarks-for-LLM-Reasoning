@@ -4,7 +4,7 @@
 ### A Survey of Reasoning Benchmarks for Large Language Models
 
 <p>
-  <a href="https://doi.org/10.20944/preprints202605.0806.v1"><img src="https://img.shields.io/badge/Paper-PDF-A42C25?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper PDF"></a>
+  <a href="https://www.preprints.org/manuscript/202605.0806"><img src="https://img.shields.io/badge/Paper-PDF-A42C25?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper PDF"></a>
   <img src="https://img.shields.io/badge/Article-Survey-1F6FEB?style=for-the-badge" alt="Survey">
   <img src="https://img.shields.io/badge/Venue-Preprint-0F766E?style=for-the-badge" alt="Venue">
   <img src="https://img.shields.io/badge/Language-English-2563EB?style=for-the-badge" alt="English">
