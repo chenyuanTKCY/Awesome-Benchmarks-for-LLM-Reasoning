@@ -351,8 +351,7 @@ Zhang,  C., Liu,  S., Li,  H., Gao,  T., Wang,  Y., Chen,  Q., Feng,  X., Cai,  
 | Date | Title | Paper | resource |
 | :-----: | :--------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :---------: |
 | 2026-04 | OMIBench: Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Model| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.20806) |Update Soon |
-| 2024-05 |M^3CoT: ANovel Benchmark for Multi-Domain Multi-step Multi-modal
-Chain-of-Thought| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.16473) | [![Resource](https://img.shields.io/badge/Resource-6B7280?style=for-the-badge)](https://github.com/LightChen233/M3CoT) |
+| 2024-05 |M^3CoT: ANovel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.16473) | [![Resource](https://img.shields.io/badge/Resource-6B7280?style=for-the-badge)](https://github.com/LightChen233/M3CoT) |
 
 ### Knowledge Reasoning
 
